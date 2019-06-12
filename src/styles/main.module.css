@@ -1,0 +1,22 @@
+a {
+	color: blue;
+	font-weight: bold;
+}
+
+a:visited {
+    color: purple;
+}
+
+.content {
+    padding-bottom: 5em;
+	padding-left: 2em;
+    padding-right: 2em;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.hidden {
+    visibility: hidden;
+}

@@ -1,0 +1,50 @@
+{
+  "name": "PersonalWebsiteGatsby",
+  "version": "1.0.0",
+  "description": "Personal website for Dan Stewart written in Gatsby",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "test": "node ./node_modules/mocha/bin/mocha test && npm run-script eslint && npm run-script csslint",
+    "eslint": "./node_modules/.bin/eslint --color static/js/*.js || exit 0",
+    "csslint": "./node_modules/.bin/csslint --quiet src/styles/header.module.css src/styles/main.module.css src/styles/mouse.module.css src/styles/tests.module.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StewShack/PersonalWebsiteGatsby.git"
+  },
+  "keywords": [
+    "Gatsby"
+  ],
+  "author": "Dan Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StewShack/PersonalWebsiteGatsby/issues"
+  },
+  "homepage": "https://www.stewshack.com",
+  "dependencies": {
+    "csslint": "^1.0.5",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "gatsby": "^2.5.4",
+    "gatsby-plugin-google-analytics": "^2.0.20",
+    "gatsby-plugin-netlify": "^2.0.17",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sitemap": "^2.1.0",
+    "gatsby-plugin-typescript": "^2.0.14",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-prismjs": "^3.2.9",
+    "gatsby-source-filesystem": "^2.0.36",
+    "gatsby-transformer-remark": "^2.3.12",
+    "mocha": "^6.1.4",
+    "prismjs": "^1.16.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
+  }
+}
