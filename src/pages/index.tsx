@@ -29,7 +29,7 @@ const IndexPage = () => {
         {data.allMarkdownRemark.edges.map((edge) => {
             return (
         <li key={edge.node.fields.slug}>
-        <Link to={`/blog/${edge.node.fields.slug}`}>
+        <Link to={`/post/${edge.node.fields.slug}`}>
            <h2>{edge.node.frontmatter.title}</h2>
         </Link>
         </li>     

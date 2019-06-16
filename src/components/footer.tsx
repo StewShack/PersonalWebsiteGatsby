@@ -12,7 +12,8 @@ const Footer = () => {
                     twitter
                 }
             }
-        }`);
+        }`)
+        
     return (
         <footer>
         <ul>
@@ -24,4 +25,4 @@ const Footer = () => {
     )
 }
 
-export default Footer;
+export default Footer

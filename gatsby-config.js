@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'StewShack',
-    siteUrl: 'https://www.www.stewshack.com',
-    description: 'Personal Website for Dan Stewart',
     author: 'Dan Stewart',
+    description: 'Personal Website for Dan Stewart',
     email: 'danstewart@live.com',
+    github: 'https://github.com/StewShack/PersonalWebsiteGatsby',
     linkedin: 'https://www.linkedin.com/in/stewshack',
-    twitter: 'https://twitter.com/stewshack',
-    github: 'https://github.com/StewShack/PersonalWebsiteGatsby'
+    siteUrl: 'https://www.www.stewshack.com',
+    themeColor: '#10a51d',
+    title: 'StewShack',
+    twitter: 'https://twitter.com/stewshack'
   },
   plugins: [
     {

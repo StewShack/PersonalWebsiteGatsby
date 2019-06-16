@@ -1,22 +1,9 @@
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateNode
 const path = require("path");
 
-module.exports.onCreateNode = ({ node, actions }) => {
-  const { createNode, createNodeField } = actions
-  
-  if(node.internal.type == "MarkdownRemark") {
-      const slug = path.basename(node.fileAbsolutePath, ".md")
-      createNodeField({
-        node,
-        name: "slug",
-        value: slug
-      })
-  }
-}
-
 module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
-    const blogTemplate = path.resolve('./src/templates/blog.js')
+    const post = path.resolve('./src/templates/post.js')
     const res = await graphql(`
         query {
             allMarkdownRemark {
@@ -33,11 +20,24 @@ module.exports.createPages = async ({ graphql, actions }) => {
     
     res.data.allMarkdownRemark.edges.forEach((edge) => {
         createPage({
-            component : blogTemplate,
-            path: `/blog/${edge.node.fields.slug}`,
+            component: post,
+            path: `/post/${edge.node.fields.slug}`,
             context: {
                 slug: edge.node.fields.slug
             }
         })
     })
+}
+
+module.exports.onCreateNode = ({ node, actions }) => {
+  const { createNode, createNodeField } = actions
+  
+  if(node.internal.type == "MarkdownRemark") {
+      const slug = path.basename(node.fileAbsolutePath, ".md")
+      createNodeField({
+        node,
+        name: "slug",
+        value: slug
+      })
+  }
 }
