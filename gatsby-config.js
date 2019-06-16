@@ -10,6 +10,13 @@ module.exports = {
     github: 'https://github.com/StewShack/PersonalWebsiteGatsby'
   },
   plugins: [
+    {
+        resolve: 'gatsby-plugin-google-analytics',
+        options: {
+            trackingId: "UA-22932513-1",
+            head: false,
+        }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify',
     'gatsby-plugin-typescript',
@@ -25,7 +32,7 @@ module.exports = {
         options: {
             plugins: [
                 {
-                    resolve: `gatsby-remark-prismjs`,
+                    resolve: 'gatsby-remark-prismjs',
                     options: {
                         classPrefix: "language-",
                         inlineCodeMarker: null,
