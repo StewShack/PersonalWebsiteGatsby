@@ -1,3 +1,10 @@
+.headerImage {
+    background-image: url('/images/header-image.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
 a {
 	color: blue;
 	font-weight: bold;

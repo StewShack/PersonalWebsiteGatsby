@@ -5,6 +5,8 @@ module.exports = {
     email: 'danstewart@live.com',
     github: 'https://github.com/StewShack/PersonalWebsiteGatsby',
     linkedin: 'https://www.linkedin.com/in/stewshack',
+    youtube: 'https://www.youtube.com/user/stewshack',
+    goodreads: 'https://goodreads.com/stewshack',
     siteUrl: 'https://www.www.stewshack.com',
     themeColor: '#10a51d',
     title: 'StewShack',
@@ -18,8 +20,8 @@ module.exports = {
             head: false,
         }
     },
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify',
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-typescript',
     {
         resolve: 'gatsby-source-filesystem',

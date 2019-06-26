@@ -20,7 +20,6 @@ const post = (props) => {
         <Layout>
             <Head title={props.data.markdownRemark.frontmatter.title} 
                 description={props.data.markdownRemark.frontmatter.description} />
-            <h1>{props.data.markdownRemark.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{__html: props.data.markdownRemark.html}}>
             </div>
         </Layout>

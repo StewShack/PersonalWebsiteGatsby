@@ -1,20 +1,19 @@
-import React from "react"
+require("bootstrap/dist/css/bootstrap.min.css");
 
-import Header from "./header"
+import React from "react"
 import Navigation from "./navigation"
-import Footer from "./footer"
 import MainStyle from "../styles/main.module.css"
+import Container from 'react-bootstrap/Container';
 
 const Layout = (props) => {
     return (
-        <div id="Main">
-            <Header />
+        <Container>
+            <div className={MainStyle.headerImage}></div>
             <Navigation />
             <div className={MainStyle.content}>
                 { props.children }
-                <Footer />
             </div>
-        </div>
+        </Container>
     )
 }
 
