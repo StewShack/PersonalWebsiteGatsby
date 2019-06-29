@@ -5,19 +5,19 @@ date: 2018-01-27T00:00:00-00:00
 lastmod: 2019-01-14T00:00:00-00:00
 draft: false
 layout: "index"
+activemenu: "home"
 ---
 
 <img src="/images/stewshack.jpg" style="float:left; margin: 0.5em;" alt="Dan Stewart">
+
             
 # About Me
  
-I am a Quality Engineer, Customer Advocate, Coach, Community Volunteer, and Homebrewer.
+I am a Quality Engineer, developer, and homebrewer.
 
 After 17 years in Web development, I was offered a position as a Quality Engineer. I fell in love 
 with testing after I began to use Test Driven Development. I discovered that I am a better "breaker" than I am a "maker". 
 I enjoy working with the customer at the beginning of the project. Then working with developers, and testing all along the way. I first manually test the feature, and then automate that test to guard against regression bugs.
-
-I want my automated checks to become tests in the future. That is why I am studying Artificial Intelligence. I am optimistic about AI's role in quality assurance. I do not believe that AI will replace testers. I see a future where AI reports its findings to a Quality Analyst. The analyst will review the report and see if it is a bug, feature, or if the AI needs better training. 
 
 # Professional Experience
 
@@ -106,7 +106,7 @@ Graduated valedictorian.
 
 Completed projects in ASP, Visual Basic 6, Java, and Oracle.
 
-Oklahoma State University, Stillwater, OK
+## Oklahoma State University, Stillwater, OK
 
 1995 &ndash; 1998
 
@@ -144,13 +144,13 @@ Microsoft Certified Application Developer
 
 2018
 
-Children's soccer coach
+[Soccer coach](https://www.i9sports.com/)
 
 ## Dare to Care
 
 2015 &ndash; Present
 
-Worked on various [community projects](http://www.coloradocommunity.org/serve/).
+[Community volunteer](http://www.coloradocommunity.org/serve/)
 
 ## Lifebyte, Denver, CO
 
@@ -164,11 +164,3 @@ MORE Life Center. Lifebyte also has a monthly "PC Wash" as a fundraiser. I manag
 2011 &ndash; 2012
 
 Helped with the set-up and tear-down of the Rocky Mountain Tech Trifecta conference.
-
-# Contributions
-
-[Github](https://www.github.com/stewshack)
-
-[GoodReads](https://goodreads.com/stewshack)
-
-[YouTube](https://www.youtube.com/user/stewshack)

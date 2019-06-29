@@ -6,37 +6,24 @@ import Head from "../components/head"
 
 const IndexPage = () => {
     const data = useStaticQuery(graphql`
-        query {
-          allMarkdownRemark {
-            edges {
-              node {
-                id,
-                frontmatter {
-                  title
-                },
-                fields {
-                    slug
-                }
-              }
-            }
-          }
-        }`);
-        
+    query {
+      markdownRemark (fields: { slug: { eq: "_index" }}) {
+        frontmatter {
+          title,
+          description,
+          activemenu
+        },
+        html
+      }
+    }`)
+    
     return (
-    <Layout>
-    <Head title="Dan Stewart" />
-    <ol>
-        {data.allMarkdownRemark.edges.map((edge) => {
-            return (
-        <li key={edge.node.fields.slug}>
-        <Link to={`/post/${edge.node.fields.slug}`}>
-           <h2>{edge.node.frontmatter.title}</h2>
-        </Link>
-        </li>     
-            )
-        })}
-    </ol>
-    </Layout>
+        <Layout activemenu={data.markdownRemark.frontmatter.activemenu}>
+            <Head title={data.markdownRemark.frontmatter.title} 
+                description={data.markdownRemark.frontmatter.description} />
+            <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}>
+            </div>
+        </Layout>
     )
 }
 

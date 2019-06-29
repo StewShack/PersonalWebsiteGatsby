@@ -30,13 +30,13 @@ const Navigation = (props) => {
         
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/">Dan Stewart</Navbar.Brand>
+            <Navbar.Brand href="/" eventKey="home">Dan Stewart</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto" activeKey={props.activemenu}>
                     <Nav.Link href="/post/qa" eventKey="testing"><FontAwesomeIcon icon={faFlask} size="lg" /> Tester</Nav.Link>
                     <Nav.Link href="/post/sc" eventKey="web"><FontAwesomeIcon icon={faCode} size="lg" /> Developer</Nav.Link>
-                    <Nav.Link href="/post/brew" eventKey="brewing"><FontAwesomeIcon icon={faBeer} size="lg" /> Home Brewer</Nav.Link>
+                    <Nav.Link href="/post/brew" eventKey="brewing"><FontAwesomeIcon icon={faBeer} size="lg" /> Homebrewer</Nav.Link>
                 </Nav>
                 <Nav>
                     <Nav.Link href={data.site.siteMetadata.github}><FontAwesomeIcon icon={faGithub} size="lg" /></Nav.Link>
