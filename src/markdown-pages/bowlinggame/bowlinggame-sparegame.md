@@ -7,9 +7,15 @@ layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "Spare Game">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
+    <li class="breadcrumb-item"><a href="/post/bowlinggame">Bowling Game</a></li>
+    <li class="breadcrumb-item">Spare Game</li>
+  </ol>
+</nav>
 
-By: Dan Stewart)\
+By: Dan Stewart\
 October 4, 2017\
 [MIT License](https://mit-license.org)
 
@@ -44,7 +50,7 @@ public void Game_Spare_ReturnsScorePlusBonus()
         
 Let's compile and run the test.
 
-{{< color "red" >}}1 test failed "Expected: 16 But was: 13"{{< /color >}}
+<span style="color: red">1 test failed "Expected: 16 But was: 13"</span>
 
 We didn't get our bonus. Our code has no concept of keeping track of frames and
 adding a bonus to an earlier score.
@@ -71,7 +77,7 @@ public void Game_Spare_ReturnsScorePlusBonus()
                 
 Now when we run the tests we see yellow.
 
-{{< color "orange" >}}Inconclusive: A game with a spare is not giving the bonus.{{< /color >}}
+<span style="color: orange">Inconclusive: A game with a spare is not giving the bonus.</span>
         
 We come back to work the next day ready to tackle the "spare" problem. We can pick right back up 
 where we left off by running the tests and seeing the comment.
@@ -147,9 +153,8 @@ public int Score()
     return score;
 }
 ```
-        
 
-{{< color "green" >}}3 tests passed{{< /color >}} 
+<span style="color: green">3 tests passed</span> 
 
 Our tests are passing, it's time to refactor.
 
@@ -186,7 +191,7 @@ private bool Spare( int roll )
         
 We compile and run the tests.
 
-{{< color "green" >}}3 tests passed{{< /color >}}
+<span style="color: green">3 tests passed</span>
 
 Looking at our test we see that these two lines simulate rolling a spare:
 
@@ -217,4 +222,4 @@ private void RollSpare()
 }
 ```
 
-[Next &raquo;](/bowlinggame/strikegame)
+[Next &raquo;](/post/bowlinggame-strikegame)

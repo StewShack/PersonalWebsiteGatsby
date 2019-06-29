@@ -7,13 +7,20 @@ layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "[Conclusion](/bowlinggame/conclusion)" "Guard Clause">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
+    <li class="breadcrumb-item"><a href="/post/bowlinggame">Bowling Game</a></li>
+    <li class="breadcrumb-item"><a href="/post/bowlinggame-conclusion">Conclusion</a></li>
+    <li class="breadcrumb-item">Guard Clause</li>
+  </ol>
+</nav>
 
 By: Dan Stewart\
 October 4, 2017\
 [MIT License](https://mit-license.org)
 
-Let's build on the [generic list refactor](/bowlinggame/genericlist/) and
+Let's build on the [generic list refactor](/post/bowlinggame-genericlist/) and
 remove the else statements to create 
 [guard clauses](https://www.refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html). 
 The use of a guard clause is up for debate. Some believe

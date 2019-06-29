@@ -7,8 +7,6 @@ layout: "index"
 activemenu: "testing"
 ---
 
-# Testing File Paths from a Database with C# #
-
 By: Dan Stewart\
 April 19, 2018\
 [MIT License](https://mit-license.org)

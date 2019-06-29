@@ -11,6 +11,8 @@ By: Dan Stewart\
 September 12, 2017\
 [MIT License](https://mit-license.org)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fS00hjMVu9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 This console application is written in C#, uses log4net, and targets [.NET Core 2](https://www.microsoft.com/net/download/windows).
 
 Create a .NET Core 2 console application and name it LoggingFun.
@@ -96,9 +98,3 @@ log4net.config
   </root>
 </log4net>
 ```
-
-Now the program writes, "2017-09-12 21:05:06,868 ERROR - Hello World!".
-
-Here is a video of me performing this example.
-
-{{< youtube fS00hjMVu9c >}}

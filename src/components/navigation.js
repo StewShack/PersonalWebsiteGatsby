@@ -30,7 +30,7 @@ const Navigation = (props) => {
         
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/" eventKey="home">Dan Stewart</Navbar.Brand>
+            <Navbar.Brand href="/">Dan Stewart</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto" activeKey={props.activemenu}>

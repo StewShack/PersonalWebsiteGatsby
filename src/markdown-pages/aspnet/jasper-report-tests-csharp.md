@@ -7,8 +7,6 @@ layout: "index"
 activemenu: "testing"
 ---
 
-# Testing Jasper Reports with C# #
-
 By: Dan Stewart\
 April 20, 2018\
 [MIT License](https://mit-license.org)

@@ -7,9 +7,15 @@ layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "Strike Game">}}
-            
-By: Dan Stewart)\
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
+    <li class="breadcrumb-item"><a href="/post/bowlinggame">Bowling Game</a></li>
+    <li class="breadcrumb-item">Strike Game</li>
+  </ol>
+</nav>
+
+By: Dan Stewart\
 October 4, 2017\
 [MIT License](https://mit-license.org)
 
@@ -38,11 +44,10 @@ public void Game_Strike_ReturnsScorePlusDoubleBonus()
     Assert.That( game.Score(), Is.EqualTo( 14 ) );
 }
 ```
-        
 
 We compile and run the after refactoring.
 
-{{< color "green" >}}4 tests passed{{< /color >}} 
+<span style="color: green">4 tests passed</span> 
 
 Wait! That test was supposed to fail! That's why we always want to see red when
 we are writing tests. Red, Green, Refactor.
@@ -89,11 +94,10 @@ public int Score()
     return score;
 }
 ```
-        
 
 Let's run the tests.
 
-{{< color "red" >}}1 test failed "System.NotImplementedException"{{< /color >}}
+<span style="color: red">1 test failed "System.NotImplementedException"</span>
 
 Good, now that we are seeing red, we can make it green.
 
@@ -125,9 +129,8 @@ public int Score()
     return score;
 }
 ```
-        
 
-{{< color "green" >}}4 tests passed{{< /color >}} 
+<span style="color: green">4 tests passed</span> 
 
 Now that our tests pass, let's refactor. First the Game.
 
@@ -135,7 +138,6 @@ To Do:
 
 * Abstract the score bonus and normal score.
 * Add the Strike method to determine if the roll is a strike.
-
 
 BowlingGame/Game.cs
 
@@ -191,7 +193,7 @@ We are striving to keep the Score method at "one level of abstraction" [Clean Co
 
 After refactoring we compile and run the tests.
         
-{{< color "green" >}}4 tests passed{{< /color >}} 
+<span style="color: green">4 tests passed</span> 
 
 Now, let's take a look at the tests.
 
@@ -218,8 +220,7 @@ private void RollStrike()
     game.Roll( 10 );
 }
 ```
-        
-        
+
 Here's our code at the end of the strike test.
         
 BowlingGame.Test/GameTest.cs
@@ -369,4 +370,4 @@ namespace BowlingGame
 }
 ```
 
-[Next &raquo;](/bowlinggame/conclusion)
+[Next &raquo;](/post/bowlinggame-conclusion)

@@ -7,12 +7,10 @@ layout: "index"
 activemenu: "brewing"
 ---
 
-# Home Brewing
-
 By: Dan Stewart\
 November 19, 2018
 
-## Before your Brew
+# Before your Brew
 
 * Read [How to Brew](http://howtobrew.com/) and don't be overwhelmed or intimidated. **You can do this!** 
 * Find a [recipe](https://thebrewhut.com/resources-recipes/recipes/) and buy the ingredients.
@@ -31,7 +29,7 @@ potent.
 * Pour the Star San into the clean bottling bucket for future use.
 * Sanitize the lid to the carboy and cover it.
 
-## Day of the Brew
+# Day of the Brew
 
 The day of the brew, "[relax, don't worry, have a homebrew](https://www.amazon.com/The-Complete-Homebrewing-Third-Edition/dp/0060531053)". 
 
@@ -59,7 +57,7 @@ wort looked after steeping.
 * Follow the recipe and add the extract stirring constantly to avoid burning the sugar to the bottom of the pot. 
 * Once you are sure the extract is dissolved, start boiling. 
 
-## The Boil
+# The Boil
 
 * The boil is a very exciting time, be sure to watch for boil over. We have had one. 
 It happens really quickly. I have a squirt bottle of cold water ready to stop it from happening again.
@@ -83,7 +81,7 @@ The yeast will eat up the sugar, release flavor, and alcohol.
 on top of the fermenter.
 * Shake it up for 2 minutes to add oxygen. 
 
-## Fermenting
+# Fermenting
 
 * Check your yeast instructions to find the best room temperature.
 * It should bubbling in about 18 hours. 
@@ -92,7 +90,7 @@ concerned, take a reading and wait a few more days. Take a reading again, and if
 * Using your last reading, calculate the 
 [Alcohol By Volume (ABV)](https://www.brewersfriend.com/abv-calculator/).
 
-## Bottling
+# Bottling
 
 * Clean the [bottles](https://www.amazon.com/CASE-OF-12-Bottles-AMBER/dp/B005CIFIDO) with PBW 
 and a [bottle brush](https://www.amazon.com/OXO-Good-Grips-Bottle-Brush/dp/B00004OCLJ). 
@@ -121,7 +119,7 @@ drop to just the right amount. Gently stir the beer after filling six bottles.
 * Clean everything. Bottling took minutes, but cleaning took hours. Just enter a meditative
 state and dream of beer. 
 
-## Enjoying
+# Enjoying
 
 After cold conditioning in the fridge for a week, I opened my first bottle of homebrew
 on April, 12th, 2013. There was some sediment at the bottom of the bottle,

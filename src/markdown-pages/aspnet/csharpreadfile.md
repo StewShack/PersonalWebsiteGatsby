@@ -11,6 +11,7 @@ By: Dan Stewart\
 September 20, 2017\
 [MIT License](https://mit-license.org)
         
+Reading a file in C#
 
 ```csharp
 using System.IO;

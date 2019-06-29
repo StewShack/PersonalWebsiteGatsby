@@ -7,9 +7,15 @@ layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "Normal Score Game">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
+    <li class="breadcrumb-item"><a href="/post/bowlinggame">Bowling Game</a></li>
+    <li class="breadcrumb-item">Normal Score Game</li>
+  </ol>
+</nav>
 
-By: Dan Stewart)\
+By: Dan Stewart\
 October 4, 2017\
 [MIT License](https://mit-license.org)
 
@@ -37,10 +43,9 @@ public void Game_AllOnes_ReturnsScore()
 
 Let's compile and run the test.
 
-{{< color "red" >}}1 test failed "Expected: 20 But was: 0"{{< /color >}}
+<span style="color: red">1 test failed "Expected: 20 But was: 0"</span>
 
-We need to get this code passing. Looking at the score method we are returning a
-0. This is because we are at the "constant" stage of 
+We need to get this code passing. Looking at the score method we are returning a 0. This is because we are at the "constant" stage of 
 [Uncle Bob's Transformation Priority Premise](https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html). 
 We need to move to the level of "scalar". This will be a variable to hold the score of the game. 
 
@@ -62,7 +67,7 @@ public int Score()
         
 Compile and run the tests.
 
-{{< color "green" >}}2 tests passed{{< /color >}}
+<span style="color: green">2 tests passed</span>
 
 Now that our tests are passing, we can do some refactoring.
 
@@ -181,4 +186,4 @@ namespace BowlingGame.Test
 }
 ```
 
-[Next &raquo;](/bowlinggame/sparegame)
+[Next &raquo;](/post/bowlinggame-sparegame)

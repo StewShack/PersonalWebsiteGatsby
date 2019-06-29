@@ -7,9 +7,15 @@ layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "Gutterball">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
+    <li class="breadcrumb-item"><a href="/post/bowlinggame">Bowling Game</a></li>
+    <li class="breadcrumb-item">Gutterball</li>
+  </ol>
+</nav>
 
-By: Dan Stewart)\
+By: Dan Stewart\
 October 4, 2017\
 [MIT License](https://mit-license.org)
 
@@ -92,7 +98,7 @@ namespace BowlingGame
         
 Running the tests results in the following error:
 
-{{< color "red" >}}1 test failed "System.NotImplementedException"{{< /color >}}
+<span style="color: red">1 test failed "System.NotImplementedException"</span>
 
 We need to get the test passing with as little code as possible. This helps us take
 small, incremental steps and keeps our code always working.
@@ -121,7 +127,7 @@ namespace BowlingGame
         
 We remove the exception and run the test again.
 
-{{< color "green" >}}1 test passed{{< /color >}} 
+<span style="color: green">1 test passed</span> 
 
 Now that we have a passing test, we can refactor. This is the Red, Green, Refactor
 pattern from Kent Beck's book, 
@@ -201,4 +207,4 @@ namespace BowlingGame
 }
 ```
 
-[Next &raquo;](/bowlinggame/normalgame)
+[Next &raquo;](/post/bowlinggame-normalgame)

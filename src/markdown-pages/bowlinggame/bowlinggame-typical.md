@@ -7,7 +7,14 @@ layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "[Conclusion](/bowlinggame/conclusion/)" "Typical Game">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
+    <li class="breadcrumb-item"><a href="/post/bowlinggame">Bowling Game</a></li>
+    <li class="breadcrumb-item"><a href="/post/bowlinggame-conclusion">Conclusion</a></li>
+    <li class="breadcrumb-item">Typical Game</li>
+  </ol>
+</nav>
 
 By: Dan Stewart\
 October 4, 2017\

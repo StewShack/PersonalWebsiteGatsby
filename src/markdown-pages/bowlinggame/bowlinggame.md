@@ -7,7 +7,12 @@ layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "Bowling Game">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
+    <li class="breadcrumb-item">Bowling Game</li>
+  </ol>
+</nav>
 
 By: Dan Stewart\
 October 4, 2017\
@@ -36,7 +41,7 @@ After the project is created, add a class named GameTest.cs. Game is the name
 of the class we will be testing, and "Test" is just a suffix that I like to add to
 the end of tests.
 
-Now add the ```csharp[TestFixture]``` attribute to the top of GameTest.
+Now add the [TestFixture] attribute to the top of GameTest.
 
 BowlingGame.Test/GameTest.cs
 
@@ -69,4 +74,4 @@ namespace BowlingGame.Test
 }
 ```
 
-[Next &raquo;](/bowlinggame/gutterball)
+[Next &raquo;](/post/bowlinggame-gutterball)

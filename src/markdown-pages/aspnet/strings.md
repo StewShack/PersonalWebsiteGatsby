@@ -69,7 +69,7 @@ DateTime.Today.ToString("MMMM dd, yyyy")
 Example:
 
 Stewart, Dan. (November 23, 2017). Manipulating Strings with C#. Retrieved December 02, 2017,
-from https://www.stewshack.com/aspnet/strings/
+from https://www.stewshack.com/post/strings/
 
 >Do not include retrieval dates unless the source material 
 may change over time (e.g., Wikis)\
