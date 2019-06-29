@@ -4,6 +4,7 @@ description: "Examples of string formats using C#"
 date: 2017-11-23T00:00:00-00:00
 lastmod: 2017-11-23T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 By: Dan Stewart\
@@ -73,5 +74,3 @@ from https://www.stewshack.com/aspnet/strings/
 >Do not include retrieval dates unless the source material 
 may change over time (e.g., Wikis)\
 >American Psychological Association, 2010, p. 192
-
-{{< activemenu "web" >}}

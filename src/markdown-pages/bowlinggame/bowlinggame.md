@@ -4,6 +4,7 @@ description: "Setting up the Bowling Game unit testing kata with C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "Bowling Game">}}
@@ -69,5 +70,3 @@ namespace BowlingGame.Test
 ```
 
 [Next &raquo;](/bowlinggame/gutterball)
-
-{{< activemenu "web" >}}

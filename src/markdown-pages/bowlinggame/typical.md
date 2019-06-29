@@ -4,6 +4,7 @@ description: "A typical bowling game kata unit test with C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "[Conclusion](/bowlinggame/conclusion/)" "Typical Game">}}
@@ -45,5 +46,3 @@ public void Game_Typical_ReturnsScore()
     Assert.That( game.Score(), Is.EqualTo( 125 ) );
 }
 ```
-
-{{< activemenu "web" >}}

@@ -4,6 +4,7 @@ description: "Test that file paths exist using C# and Dapper to get the paths fr
 date: 2018-04-19T00:00:00-00:00
 lastmod: 2018-04-19T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Testing File Paths from a Database with C# #
@@ -85,5 +86,3 @@ namespace file-tests
   }
 }
 ```
-
-{{< activemenu "testing" >}}

@@ -4,6 +4,7 @@ description: "An example using log4net with C#"
 date: 2017-09-12T00:00:00-00:00
 lastmod: 2017-08-08T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 By: Dan Stewart\
@@ -101,5 +102,3 @@ Now the program writes, "2017-09-12 21:05:06,868 ERROR - Hello World!".
 Here is a video of me performing this example.
 
 {{< youtube fS00hjMVu9c >}}
-
-{{< activemenu "web" >}}

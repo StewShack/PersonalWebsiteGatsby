@@ -4,6 +4,7 @@ description: "Using Node.js to run Selenium tests"
 date: 2017-08-28T00:00:00-00:00
 lastmod: 2017-08-28T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Selenium UI Testing with Node
@@ -70,5 +71,3 @@ describe("Numeric test should accept a valid input.", function validInputTest() 
   });
 });
 ```
-
-{{< activemenu "testing" >}}

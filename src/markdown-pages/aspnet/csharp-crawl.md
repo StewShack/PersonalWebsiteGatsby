@@ -4,6 +4,7 @@ description: "Using Abot and C# to crawl a webpage looking for broken links"
 date: 2017-08-08T00:00:00-00:00
 lastmod: 2017-08-08T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 By: Dan Stewart\
@@ -178,5 +179,3 @@ app.config
   </runtime>
 </configuration>
 ```
-
-{{< activemenu "testing" >}}

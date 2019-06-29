@@ -4,6 +4,7 @@ description: "The bowling game unit tests with a guard clause using C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "[Conclusion](/bowlinggame/conclusion)" "Guard Clause">}}
@@ -48,5 +49,3 @@ public int Score()
     return score;
 }
 ```
-
-{{< activemenu "web" >}}

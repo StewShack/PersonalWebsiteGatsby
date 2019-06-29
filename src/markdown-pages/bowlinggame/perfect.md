@@ -4,6 +4,7 @@ description: "A bowling game with all strikes unit test with C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "[Conclusion](/bowlinggame/conclusion)" "Perfect Game">}}
@@ -27,5 +28,3 @@ public void Game_Perfect_ReturnsPerfectGameScore()
     Assert.That( game.Score(), Is.EqualTo( 300 ) );
 }
 ```
-
-{{< activemenu "web" >}}

@@ -4,6 +4,7 @@ description: "Using C# to read a file with System.IO and System.Text"
 date: 2017-09-20T00:00:00-00:00
 lastmod: 2017-09-20T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 By: Dan Stewart\
@@ -36,5 +37,3 @@ namespace ReadingAFile
     }
 }
 ```
-
-{{< activemenu "web" >}}

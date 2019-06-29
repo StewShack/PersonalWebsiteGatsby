@@ -4,6 +4,7 @@ description: "Replicating data between servers and schemas"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # Replication between Different Schemas
@@ -137,5 +138,3 @@ Don't forget to use the schema name with querying the table.
 USE SubscriberDatabase
 SELECT * FROM repl.Person
 ```
-
-{{< activemenu "web" >}}

@@ -4,6 +4,7 @@ description: "Using C# to run Selenium tests"
 date: 2018-02-21T00:00:00-00:00
 lastmod: 2018-02-21T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Selenium UI Testing with C# #
@@ -113,5 +114,3 @@ namespace StewShack.Web.UI.Tests.Tests
 ```
 
 Running this test launches the home page of StewShack and immediately closes the browser.
-
-{{< activemenu "testing" >}}

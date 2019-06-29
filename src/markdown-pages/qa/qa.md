@@ -4,6 +4,7 @@ description: "The index page for my QA section"
 date: 2018-02-21T00:00:00-00:00
 lastmod: 2018-02-21T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Software Quality Engineer
@@ -19,5 +20,3 @@ layout: "index"
 * [Testing Jasper Reports with Node](/node/jasper-report-tests/)
 * [Testing Numeric Input](/qa/numeric/)
 * [Testing Process](/qa/testing-process/)
-
-{{< activemenu "testing" >}}

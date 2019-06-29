@@ -4,6 +4,7 @@ description: "My testing process based on a lot of books, blogs, and experience"
 date: 2016-04-11T00:00:00-00:00
 lastmod: 2018-12-05T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Testing Process
@@ -224,7 +225,5 @@ Do you fix the old, bad data or ask to check for nulls in the form?
 1. Edit the form with all of the fields and submit it. Check the database to make sure the values were saved correctly.
 1. Delete a form. Where did you end up? Is there an undelete or a confirmation?
 1. Delete all of the forms. Did you get a null reference exception when the list of forms is displayed?
-
-{{< activemenu "testing " >}}
 
 {{< datatable >}}

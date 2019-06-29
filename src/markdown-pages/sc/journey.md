@@ -4,6 +4,7 @@ description: "My journey towards becoming an IT professional"
 date: 2018-02-21T00:00:00-00:00
 lastmod: 2018-02-21T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # My Journey as a Software Craftsman
@@ -94,5 +95,3 @@ This quote represents the content of this website.
 >manual will bring about comments and questions by those who program.
 >
 >[Apollo Guidance and Navigation 1961](https://www.ibiblio.org/apollo/NARA-SW/E-1077.pdf)
-
-{{< activemenu "web" >}}

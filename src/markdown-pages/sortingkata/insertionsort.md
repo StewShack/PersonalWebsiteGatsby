@@ -4,6 +4,7 @@ description: "Sorting using Insertion Sort in C#"
 date: 2013-08-29T00:00:00-00:00
 lastmod: 2018-03-02T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "Insertion Sort">}}
@@ -206,5 +207,3 @@ When we run the test we see:
 {{< color "green" >}}1 test passing{{< /color >}}
 
 [Next &raquo;](/sortingkata/selectionsort)
-
-{{< activemenu "web" >}}

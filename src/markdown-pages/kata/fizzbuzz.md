@@ -4,6 +4,7 @@ description: "A kata using FizzBuzz exercises"
 date: 2014-05-03T00:00:00-00:00
 lastmod: 2014-05-03T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "FizzBuzz">}}
@@ -147,5 +148,3 @@ public static class Program
     }
 }
 ```
-
-{{< activemenu "web" >}}

@@ -4,6 +4,7 @@ description: "Crawling a webpage using Node.js and broken-link-checker"
 date: 2017-08-08T00:00:00-00:00
 lastmod: 2017-08-08T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Crawling a Webpage using Node.js
@@ -111,5 +112,3 @@ Now we run it through NPM.
 ```shell
 $ npm start
 ```
-
-{{< activemenu "testing" >}}

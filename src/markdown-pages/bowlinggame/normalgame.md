@@ -4,6 +4,7 @@ description: "A bowling game with a normal score unit test with C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "Normal Score Game">}}
@@ -181,5 +182,3 @@ namespace BowlingGame.Test
 ```
 
 [Next &raquo;](/bowlinggame/sparegame)
-
-{{< activemenu "web" >}}

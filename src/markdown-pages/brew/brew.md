@@ -4,6 +4,7 @@ description: "Our home brewing process based on How to Brew by John Palmer"
 date: 2017-07-20T00:00:00-00:00
 lastmod: 2018-11-19T00:00:00-00:00
 layout: "index"
+activemenu: "brewing"
 ---
 
 # Home Brewing
@@ -138,5 +139,3 @@ After pouring, save and clean the bottle for the next brew.
 Some beers taste better with time. Our Crimson Hefeweizen 
 didn't start tasting really great until it was about four months old. Our Belgian Tripel
 took 6 months before we let other people try it.
-
-{{< activemenu "brewing" >}}

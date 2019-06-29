@@ -4,6 +4,7 @@ description: "Comparing replication articles between servers"
 date: 2013-09-19T00:00:00-00:00
 lastmod: 2013-09-19T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # Replication Comparison between Different Servers
@@ -40,5 +41,3 @@ Here's the scenario, you have two servers. The first server is production. The s
 replicating in production to what you are replicating on development.
 
 Running this query shows the publications and articles between the two servers.
-
-{{< activemenu "web" >}}

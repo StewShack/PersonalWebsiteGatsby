@@ -4,6 +4,7 @@ description: "Collection of driven development links"
 date: 2017-04-21T00:00:00-00:00
 lastmod: 2018-12-03T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # Programming
@@ -34,5 +35,3 @@ Here's my collection of programming theories that you won't find in a textbook.
 * [Spite Driven Development](http://engineering-blog.wantering.com/post/40276705512/spite-driven-development)
 * [Suffering-Oriented Programming](http://nathanmarz.com/blog/suffering-oriented-programming.html)
 * [YOLO Driven Development](https://usersnap.com/blog/ugly-habits-in-web-development/)
-
-{{< activemenu "web" >}}

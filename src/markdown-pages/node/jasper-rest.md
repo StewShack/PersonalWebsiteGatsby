@@ -4,6 +4,7 @@ description: "Running Jasper reports through it's API using Node.js"
 date: 2016-10-07T00:00:00-00:00
 lastmod: 2016-10-07T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # Jasper report using REST and Node.js
@@ -81,5 +82,3 @@ If you do not want your login exposed to the world, you will need to research wa
 We use Node's pipe function to write the file.
 
 In this example I used PDF as the output, but you can change that to any output that Jasper supports.
-
-{{< activemenu "web" >}}

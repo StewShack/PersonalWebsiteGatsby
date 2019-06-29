@@ -4,6 +4,7 @@ description: "Using Node.js to test filepaths from a database using lodash, moch
 date: 2016-12-18T00:00:00-00:00
 lastmod: 2018-12-02T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Testing File Paths held in a Database with Node
@@ -197,5 +198,3 @@ package.json
 
 I will bail out of testing if one content file fails. I set a 1 minute timeout for running the tests 
 and a 30 second slow warning in mocha. You can run the tests with "npm start".
-
-{{< activemenu "testing" >}}

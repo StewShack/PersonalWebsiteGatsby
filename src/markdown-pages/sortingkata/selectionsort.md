@@ -4,6 +4,7 @@ description: "Sorting using Selection Sort in C#"
 date: 2013-09-20T00:00:00-00:00
 lastmod: 2018-03-03T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "Selection Sort">}}
@@ -218,5 +219,3 @@ When we run the test we see:
 {{< /color >}}
 
 [Next &raquo;](/sortingkata/mergesort)
-
-{{< activemenu "web" >}}

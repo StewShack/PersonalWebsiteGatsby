@@ -4,6 +4,7 @@ description: "Testing Jasper reports through it's API using Node.js"
 date: 2016-12-18T00:00:00-00:00
 lastmod: 2018-12-02T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Testing Jasper Reports with Node
@@ -247,5 +248,3 @@ package.json
 
 I will bail out of testing if one report fails. I set a 1 minute timeout for running 
 the tests and a 30 second slow warning in mocha. You can run the tests with "npm start".
-
-{{< activemenu "testing" >}}

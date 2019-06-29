@@ -4,6 +4,7 @@ description: "It's ok to get it wrong the first time."
 date: 2012-07-29T00:00:00-00:00
 lastmod: 2018-12-03T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # Get it Wrong the First Time
@@ -68,5 +69,3 @@ You just type the first thing that comes to mind. The important thing is that yo
 >to push onward. You only need to be right 1% of the time.
 >
 >The Psychology of Tackling Hard Problems by David Valdman
-
-{{< activemenu "web" >}}

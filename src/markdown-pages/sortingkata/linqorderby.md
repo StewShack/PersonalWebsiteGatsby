@@ -4,6 +4,7 @@ description: "Sorting using Linq in C#"
 date: 2013-07-26T00:00:00-00:00
 lastmod: 2018-02-28T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{< breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "Linq Order By" >}}
@@ -210,5 +211,3 @@ namespace BookSorting
 Let's continue the Kata by using the built-in sort method of a List.
 
 [Next &raquo;](/sortingkata/listsort/)
-
-{{< activemenu "web" >}}

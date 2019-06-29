@@ -4,6 +4,7 @@ description: "Example mouse pointer icons using CSS"
 date: 2018-01-27T00:00:00-00:00
 lastmod: 2018-01-27T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # Mouse Pointers
@@ -60,5 +61,3 @@ Using CSS you can modify the mouse pointers that a user sees.
         { cursor: help; }
     </div>
 </div>
-
-{{< activemenu "web" >}}

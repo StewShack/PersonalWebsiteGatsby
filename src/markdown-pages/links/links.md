@@ -4,6 +4,7 @@ description: "A list of links that I keep up to date"
 date: 2010-07-05T00:00:00-00:00
 lastmod: 2019-02-27T00:00:00-00:00
 layout: "index"
+activemenu: "home"
 ---
 
 # Links
@@ -319,5 +320,3 @@ layout: "index"
  2010/07/05 | [Coding Horror](https://blog.codinghorror.com/) | Development 
  
  {{<datatable full="true"  >}}
- 
- {{< activemenu "links" >}}

@@ -4,6 +4,7 @@ description: "The bowling game unit tests with a generic list using C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "[Conclusion](/bowlinggame/conclusion)" "Generic List">}}
@@ -84,5 +85,3 @@ namespace BowlingGame
     }
 }
 ```
-
-{{< activemenu "web" >}}

@@ -4,6 +4,7 @@ description: "Sorting using List Sort in C#"
 date: 2013-08-21T00:00:00-00:00
 lastmod: 2018-03-02T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "List Sort">}}
@@ -252,7 +253,5 @@ These tests would exercise the CompareTo method.
 Now that we know how to compare books let's try some other sorting algorithms.
 
 [Next &raquo;](/sortingkata/bubblesort)
-
-{{< activemenu "web" >}}
 
 {{< datatable >}}

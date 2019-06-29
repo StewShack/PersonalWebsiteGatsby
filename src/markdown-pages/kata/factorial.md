@@ -4,6 +4,7 @@ description: "A kata to write a factorial program"
 date: 2013-07-22T00:00:00-00:00
 lastmod: 2013-07-22T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "Factorial">}}
@@ -51,5 +52,3 @@ public class FactorialKata
     }
 }
 ```
-
-{{< activemenu "web" >}}

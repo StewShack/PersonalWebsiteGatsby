@@ -4,6 +4,7 @@ description: "An exercise is testing numeric input"
 date: 2014-07-19T00:00:00-00:00
 lastmod: 2014-07-19T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Testing Numeric Input
@@ -127,5 +128,3 @@ Here is a numeric field. Go ahead and test it for input validation. You do not n
   $('#testing').addClass('active');
 })(jQuery);
 </script>
-
-{{< activemenu "testing" >}}

@@ -4,6 +4,7 @@ description: "The index page of my kata section"
 date: 2013-07-22T00:00:00-00:00
 lastmod: 2013-07-22T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # Kata  
@@ -15,5 +16,3 @@ Repetition is not enough. You have to challenge yourself.
 * [Factorial](/kata/factorial/)
 * [FizzBuzz](/kata/fizzbuzz/)
 * [Sorting](/sortingkata/)
-
-{{< activemenu "web" >}}

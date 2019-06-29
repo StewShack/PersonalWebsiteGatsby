@@ -4,6 +4,7 @@ description: "Using tables and parameters with Jasper reports"
 date: 2016-08-30T00:00:00-00:00
 lastmod: 2018-12-03T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # Jasper Reports Tables and Parameters
@@ -282,5 +283,3 @@ If your parameter is a date and you want it to be all inclusive, modify the SQL 
 DATEADD(DAY, DATEDIFF(DAY, 0, $P{StartDateTableParam}), 0)
 DATEADD(DAY, 1, DATEADD(DAY, DATEDIFF(DAY, 0, $P{EndDateTableParam}), 0))
 ```
-
-{{< activemenu "web" >}}

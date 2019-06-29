@@ -4,6 +4,7 @@ description: "Sorting using Bubble Sort in C#"
 date: 2013-08-21T00:00:00-00:00
 lastmod: 2018-03-02T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "Bubble Sort">}}
@@ -275,4 +276,3 @@ I recommend setting a breakpoint and watching the list of books change order.
 [Next &raquo;](/sortingkata/insertionsort)
 
 {{< datatable >}}
-{{< activemenu "web" >}}

@@ -4,6 +4,7 @@ description: "Things to test for when a column length changes"
 date: 2015-01-09T00:00:00-00:00
 lastmod: 2015-01-09T00:00:00-00:00
 layout: "index"
+activemenu: "testing"
 ---
 
 # Testing a Column Length Change
@@ -60,7 +61,5 @@ field will cause errors saving the email.
 Database column changes have a ripple effect. Do your best in trying to follow the ripples to all the areas affected.
 
 Now that you have done the research, you know to test the database, registration, shopping cart, shipping clerk emails&hellip;
-
-{{< activemenu "testing " >}}
 
 {{< datatable >}}

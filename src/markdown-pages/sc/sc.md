@@ -4,6 +4,7 @@ description: "The index page of my development section"
 date: 2018-02-21T00:00:00-00:00
 lastmod: 2018-02-21T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 # Developer
@@ -35,5 +36,3 @@ layout: "index"
 * [Replication between different schemas](/sql/replicationdifferentschemas/)
 * [Replication comparison between different servers](/sql/replicationcomparison/)
 * [SQL Code Style Guide](/sql/sql-code-guide/)
-
-{{< activemenu "web" >}}

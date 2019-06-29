@@ -4,6 +4,7 @@ description: "The StewShack privacy policy"
 date: 2018-04-29T00:00:00-00:00
 lastmod: 2018-04-29T00:00:00-00:00
 layout: "index"
+activemenu: "home"
 ---
 
 # Privacy policy
@@ -194,5 +195,3 @@ data is processed for the purpose of supplying the purchased goods and services 
 14.0	Data protection officer
 
 14.1	Our data protection officer's contact details are: Dan Stewart <a href="mailto:danstewart@live.com">danstewart@live.com</a>.
- 
-{{< activemenu "privacy" >}}

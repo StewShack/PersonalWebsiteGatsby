@@ -4,6 +4,7 @@ description: "A bowling game with a spare unit test with C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "Spare Game">}}
@@ -217,5 +218,3 @@ private void RollSpare()
 ```
 
 [Next &raquo;](/bowlinggame/strikegame)
-
-{{< activemenu "web" >}}
