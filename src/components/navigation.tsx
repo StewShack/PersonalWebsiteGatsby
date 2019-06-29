@@ -5,13 +5,16 @@ import Nav from 'react-bootstrap/Nav';
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFlask } from '@fortawesome/free-solid-svg-icons/faFlask';
+import { faBeer } from '@fortawesome/free-solid-svg-icons/faBeer';
+import { faCode } from '@fortawesome/free-solid-svg-icons/faCode';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faGoodreads } from '@fortawesome/free-brands-svg-icons/faGoodreads';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons/faYoutube';
 
-const Navigation = () => {
+const Navigation = (props) => {
     const data = useStaticQuery(graphql`
         query {
             site {
@@ -30,13 +33,10 @@ const Navigation = () => {
             <Navbar.Brand href="/">Dan Stewart</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/post/qa">Testing</Nav.Link>
-                    <Nav.Link href="/post/sc">Development</Nav.Link>
-                    <Nav.Link href="/post/brew">Home Brewing</Nav.Link>
-                    <Nav.Link href="/post/links">Links</Nav.Link>
-                    <Nav.Link href="/post/privacy">Privacy Policy</Nav.Link>
+                <Nav className="mr-auto" activeKey={props.activemenu}>
+                    <Nav.Link href="/post/qa" eventKey="testing"><FontAwesomeIcon icon={faFlask} size="lg" /> Tester</Nav.Link>
+                    <Nav.Link href="/post/sc" eventKey="web"><FontAwesomeIcon icon={faCode} size="lg" /> Developer</Nav.Link>
+                    <Nav.Link href="/post/brew" eventKey="brewing"><FontAwesomeIcon icon={faBeer} size="lg" /> Home Brewer</Nav.Link>
                 </Nav>
                 <Nav>
                     <Nav.Link href={data.site.siteMetadata.github}><FontAwesomeIcon icon={faGithub} size="lg" /></Nav.Link>

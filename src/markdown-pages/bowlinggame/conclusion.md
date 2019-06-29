@@ -4,6 +4,7 @@ description: "The bowling game unit test conclusion"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
 layout: "index"
+activemenu: "web"
 ---
 
 {{<breadcrumb "[Kata](/kata/)" "[Bowling Game](/bowlinggame/)" "Conclusion">}}
@@ -24,5 +25,3 @@ Here are some other things that I would like to try:
 * [Change int[] to List&lt;int&gt;.](/bowlinggame/genericlist/)
 * [Use guard clauses instead of else statements.](/bowlinggame/guard/)
 * Save the score to the database and use the Theory attribute to test it.
-
-{{< activemenu "web" >}}

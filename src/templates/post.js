@@ -9,7 +9,8 @@ query ($slug: String!) {
   markdownRemark (fields: { slug: { eq: $slug }}) {
     frontmatter {
       title,
-      description
+      description,
+      activemenu
     },
     html
   }
@@ -17,7 +18,7 @@ query ($slug: String!) {
 
 const post = (props) => {
     return (
-        <Layout>
+        <Layout activemenu={props.data.markdownRemark.frontmatter.activemenu}>
             <Head title={props.data.markdownRemark.frontmatter.title} 
                 description={props.data.markdownRemark.frontmatter.description} />
             <div dangerouslySetInnerHTML={{__html: props.data.markdownRemark.html}}>
