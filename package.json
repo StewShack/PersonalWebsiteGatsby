@@ -8,7 +8,7 @@
     "build": "gatsby build",
     "test": "node ./node_modules/mocha/bin/mocha test && npm run-script eslint && npm run-script csslint",
     "eslint": "./node_modules/.bin/eslint --color static/js/*.js || exit 0",
-    "csslint": "./node_modules/.bin/csslint --quiet src/styles/header.module.css src/styles/main.module.css src/styles/mouse.module.css src/styles/tests.module.css"
+    "csslint": "./node_modules/.bin/csslint --quiet src/styles/main.module.css src/styles/mouse.module.css src/styles/tests.module.css"
   },
   "repository": {
     "type": "git",
