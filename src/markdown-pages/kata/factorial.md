@@ -7,13 +7,18 @@ layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "Factorial">}}
-
-# Factorial Kata
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
+    <li class="breadcrumb-item">Factorial</li>
+  </ol>
+</nav>
 
 By: Dan Stewart\
 July 22, 2013\
 [MIT License](https://mit-license.org)
+
+Factorial Kata
 
 > For recursion to work, two properties must hold. First, there must be one or more **base cases**, where we compute the solution directly without recursion. Second, each recursive call of the procedure must be on a smaller instance of the same problem that will eventually reach a base case.
 

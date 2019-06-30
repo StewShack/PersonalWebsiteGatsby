@@ -17,7 +17,7 @@ activemenu: "web"
 
 ## CSS
 
-* [Mouse Pointers](/css/mouse/)
+* [Mouse Pointers](/mouse/)
 
 ## Node.js
 
