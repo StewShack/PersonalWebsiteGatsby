@@ -23,7 +23,6 @@ const Head = ({ title, description }) => {
             <meta name="theme-color" content={`${data.site.siteMetadata.themeColor}`} />
             <meta name="Description" content={`${description}`} />
             <title>{`${data.site.siteMetadata.title} - ${title}`}</title> 
-            <link rel="stylesheet" href="/styles/site.css" />
             <link rel="author" href="/humans.txt" />
             <link rel="manifest" href="/manifest.json" />
         </Helmet>

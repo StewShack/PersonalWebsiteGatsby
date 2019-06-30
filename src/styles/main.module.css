@@ -28,16 +28,6 @@ a:visited {
     visibility: hidden;
 }
 
-.mousePointers div {
-    background-color: #005;
-    color: #FFF;
-    float: left;
-	margin: 1em;
-	padding: 0.5em;
-	text-align: center;
-    width: 12em;
-}
-
 .failingTest {
 	color: #F00;
 	font-weight: bold;

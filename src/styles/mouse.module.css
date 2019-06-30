@@ -1,0 +1,73 @@
+.mousePointers div {
+    background-color: #005;
+    color: #FFF;
+    float: left;
+	margin: 1em;
+	padding: 0.5em;
+	text-align: center;
+    width: 12em;
+}
+
+.cursorauto {
+    cursor: auto;
+}
+
+.cursorcrosshair {
+    cursor: crosshair;
+}
+
+.cursordefault {
+    cursor: default;
+}
+
+.cursorpointer {
+    cursor: pointer;
+}
+
+.cursormove {
+    cursor: move;
+}
+
+.cursoreresize {
+    cursor: e-resize;
+}
+
+.cursorneresize {
+    cursor: ne-resize;
+}
+
+.cursornwresize {
+    cursor: nw-resize;
+}
+
+.cursornresize {
+    cursor: n-resize;
+}
+
+.cursorseresize {
+    cursor: se-resize;
+}
+
+.cursorswresize {
+    cursor: sw-resize;
+}
+
+.cursorsresize {
+    cursor: s-resize;
+}
+
+.cursorwresize {
+    cursor: w-resize;
+}
+
+.cursortext {
+    cursor: text;
+}
+
+.cursorwait {
+    cursor: wait;
+}
+
+.cursorhelp {
+    cursor: help;
+}
