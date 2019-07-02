@@ -1,7 +1,13 @@
-var lowerBound = 1
-var upperBound = 100
+import React from "react";
+import Layout from '../components/layout';
+import Head from "../components/head"
 
-var numericInputTestResults = [
+const NumericPage = () => {
+const lowerBound = 1
+const upperBound = 100
+let result
+
+const numericInputTestResults = [
   {
     'Id': '0',
     'Input': 'valid input',
@@ -74,33 +80,32 @@ var numericInputTestResults = [
   }
 ]
 
-var inputNotNumber = function (value) {
+const inputNotNumber = function (value) {
   if (value.search(/</) >= 0) {
-    var resultXssAttack = numericInputTestResults[12]
+    let resultXssAttack = numericInputTestResults[12]
     resultXssAttack.Input = value
     return resultXssAttack
   }
 
   if (value.search(/--/gm) >= 0) {
-    var resultSqlInjection = numericInputTestResults[13]
+    let resultSqlInjection = numericInputTestResults[13]
     resultSqlInjection.Input = value
     return resultSqlInjection
   }
 
-  var resultNan = numericInputTestResults[3]
+  let resultNan = numericInputTestResults[3]
   resultNan.Input = value
   return resultNan
 }
 
-var truncateInput = function (value) {
-  var maxInputLength = 14
+const truncateInput = function (value) {
+  let maxInputLength = 14
   return value.length > maxInputLength
     ? value.substring(0, maxInputLength) + '&hellip;'
     : value
 }
 
-var numericInputTest = function (value) {
-  var result
+const numericInputTest = function (value) {
   if (value === '') {
     return numericInputTestResults[1]
   }
@@ -176,7 +181,7 @@ var numericInputTest = function (value) {
     return result
   }
 
-  var returnValue = {
+  const returnValue = {
     'Id': '??',
     'Input': value,
     'Description': 'Congratulations, I did not expect that input.'
@@ -185,4 +190,111 @@ var numericInputTest = function (value) {
   return returnValue
 }
 
-module.exports.numericInputTest = numericInputTest
+const test = function() {
+    console.log('test');
+    let numericInput = document.getElementById('number').value;
+    
+    let result = numericInputTest(numericInput);
+    let table = document.getElementById('testresult');
+    let tablebody = document.getElementById('testingresult');
+/*
+    if(table.column(0).data().indexOf(result.Id) >= 0 
+        && table.column(1).data().indexOf(result.Input) >= 0) { 
+        document.getElementById('message').classList.add('alert').classList.remove('alert-success').classList.add('alert-danger')
+        .innerHTML('A test for ' + result.Input + ' has already been performed.');
+        return;
+    }
+*/
+    let row = tablebody.insertRow()
+    row.insertCell(0).appendChild(document.createTextNode(result.Id))
+    row.insertCell(1).appendChild(document.createTextNode(escape(numericInput)))
+    row.insertCell(2).appendChild(document.createTextNode(result.Description))
+
+    let message = document.getElementById('message')
+    message.classList.add('alert')
+    message.classList.remove('alert-danger')
+    message.classList.add('alert-success')
+    message.innerHTML = 'Added test ID ' + result.Id + ' for input ' + escape(numericInput) + '.'  
+}
+
+return (
+    <Layout activemenu="testing">
+        <Head title="Testing Numeric Input" 
+            description="An exercise is testing numeric input" />
+        <div>
+            <p>
+                By: Dan Stewart<br />
+                July 19, 2014<br />
+                <a href="https://mit-license.org">MIT License</a>
+            </p><p>
+                Testing numeric input was inspired by 
+                <a hrf="https://www.amazon.com/Lessons-Learned-Software-Testing-Context-Driven/dp/0471081124">Lessons Learned 
+                in Software Testing: A Context Driven Approach</a> by Cem Kaner, James Bach, and Bret Pettichord.
+            </p><p>
+                Here is a numeric field. Go ahead and test it for input validation. You do not need to test the "-ilities" such 
+                as reliability, or usability.
+            </p>
+            <h1>I'm thinking of a number between 1 and 100</h1>
+            <p>
+                <input type="text" id="number" maxLength="14" onKeyPress={event => {
+                    if(event && event.key == 'Enter') {
+                        test();
+                    }}} /> 
+                <input type="button" value="Test It" id="testButton" onClick={test} />
+            </p><p>
+                <input type="button" value="Show Additional Tests" id="moreTestsButton" onClick={() => {
+                    /*var moreTestsFound = false;
+                    var testMessages = '';
+
+                    for (var i = 0; i < numericInputTestResults.length; i++) {
+
+                      if(table.column(0).data().indexOf(numericInputTestResults[i].Id) < 0) { 
+
+                        moreTestsFound = true;
+
+                        testMessages += 'Added test ID ' + numericInputTestResults[i].Id 
+                          + ' with example input ' + numericInputTestResults[i].Input + '.<br>';
+
+                        table.row.add([
+                          numericInputTestResults[i].Id,
+                          numericInputTestResults[i].Input,
+                          numericInputTestResults[i].Description
+                        ]).draw();
+                      }
+                    }
+
+                    if(moreTestsFound) {
+                      document.getElementById('message').classList.add('alert').classList.remove('alert-danger').classList.add('alert-success')
+                      .innerHTML(testMessages);
+                    } 
+                    else {
+                      document.getElementById('message').classList.add('alert').classList.remove('alert-danger').classList.add('alert-success')
+                      .innerHTML('Added test for ' + result.Input + '.');
+                    }*/
+                    console.log('additional tests')
+                }} />
+            </p><p>
+                <input type="button" value="Reset" id="resetButton" onClick={() => {
+                    //table.clear().draw();
+                    //document.getElementById('message').innerHTML('').classList.remove('alert-danger').classList.remove('alert-success');
+                    console.log('reset');
+                }} />
+            </p>
+            <div id="message" role="alert"></div>
+            <h1>Test result</h1>
+            <table id="testresult">
+                <thead>
+                    <tr>
+                        <th>Test ID</th>
+                        <th>Input</th>
+                        <th>result</th>
+                    </tr>
+                </thead>
+                <tbody id="testingresult"></tbody>
+            </table>
+        </div>
+    </Layout>
+    )
+}
+
+export default NumericPage; 

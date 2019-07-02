@@ -1,3 +1,10 @@
+import React from "react";
+import Layout from '../components/layout';
+import Head from "../components/head"
+
+const LinksPage = () => {
+    return (
+<div>
 ---
 title: "Links"
 description: "A list of links that I keep up to date"
@@ -318,5 +325,8 @@ activemenu: "home"
  2010/07/05 | [MSDN Magazine](https://msdn.microsoft.com/en-us/magazine) | Development,Magazines 
  2010/07/05 | [css Zen Garden: The Beauty in CSS Design](http://www.csszengarden.com/) | Web,CSS 
  2010/07/05 | [Coding Horror](https://blog.codinghorror.com/) | Development 
- 
- {{<datatable full="true"  >}}
+ </div>
+ )
+}
+
+export default LinksPage; 
