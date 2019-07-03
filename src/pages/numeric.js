@@ -191,30 +191,21 @@ const numericInputTest = function (value) {
 }
 
 const test = function() {
-    console.log('test');
-    let numericInput = document.getElementById('number').value;
-    
-    let result = numericInputTest(numericInput);
-    let table = document.getElementById('testresult');
-    let tablebody = document.getElementById('testingresult');
-/*
-    if(table.column(0).data().indexOf(result.Id) >= 0 
-        && table.column(1).data().indexOf(result.Input) >= 0) { 
-        document.getElementById('message').classList.add('alert').classList.remove('alert-success').classList.add('alert-danger')
-        .innerHTML('A test for ' + result.Input + ' has already been performed.');
-        return;
-    }
-*/
+    let numericInput = document.getElementById('number').value
+    let result = numericInputTest(numericInput)
+    numericInput = escape(numericInput)
+    const table = document.getElementById('testresult')
+    const tablebody = document.getElementById('testingresult')
     let row = tablebody.insertRow()
     row.insertCell(0).appendChild(document.createTextNode(result.Id))
-    row.insertCell(1).appendChild(document.createTextNode(escape(numericInput)))
+    row.insertCell(1).appendChild(document.createTextNode(numericInput))
     row.insertCell(2).appendChild(document.createTextNode(result.Description))
 
-    let message = document.getElementById('message')
+    const message = document.getElementById('message')
     message.classList.add('alert')
     message.classList.remove('alert-danger')
     message.classList.add('alert-success')
-    message.innerHTML = 'Added test ID ' + result.Id + ' for input ' + escape(numericInput) + '.'  
+    message.innerHTML = 'Added test ID ' + result.Id + ' for input ' + numericInput + '.'  
 }
 
 return (
@@ -238,51 +229,49 @@ return (
             <p>
                 <input type="text" id="number" maxLength="14" onKeyPress={event => {
                     if(event && event.key == 'Enter') {
-                        test();
+                        test()
                     }}} /> 
                 <input type="button" value="Test It" id="testButton" onClick={test} />
             </p><p>
-                <input type="button" value="Show Additional Tests" id="moreTestsButton" onClick={() => {
-                    /*var moreTestsFound = false;
-                    var testMessages = '';
-
-                    for (var i = 0; i < numericInputTestResults.length; i++) {
-
-                      if(table.column(0).data().indexOf(numericInputTestResults[i].Id) < 0) { 
-
-                        moreTestsFound = true;
-
-                        testMessages += 'Added test ID ' + numericInputTestResults[i].Id 
-                          + ' with example input ' + numericInputTestResults[i].Input + '.<br>';
-
-                        table.row.add([
-                          numericInputTestResults[i].Id,
-                          numericInputTestResults[i].Input,
-                          numericInputTestResults[i].Description
-                        ]).draw();
+                <input type="button" value="Show All Tests" id="moreTestsButton" onClick={() => {
+                    const table = document.getElementById('testresult')
+                    const tablebody = document.getElementById('testingresult')
+                    let j
+                    let rowTotal = tablebody.rows.length;
+                    for(j = 0; j < rowTotal; j++) {
+                        tablebody.deleteRow(0);
+                    }
+                    
+                    let i
+                    for (i = 0; i < numericInputTestResults.length; i++) {
+                        let row = tablebody.insertRow()
+                        row.insertCell(0).appendChild(document.createTextNode(numericInputTestResults[i].Id))
+                        row.insertCell(1).appendChild(document.createTextNode(numericInputTestResults[i].Input))
+                        row.insertCell(2).appendChild(document.createTextNode(numericInputTestResults[i].Description))
                       }
                     }
-
-                    if(moreTestsFound) {
-                      document.getElementById('message').classList.add('alert').classList.remove('alert-danger').classList.add('alert-success')
-                      .innerHTML(testMessages);
-                    } 
-                    else {
-                      document.getElementById('message').classList.add('alert').classList.remove('alert-danger').classList.add('alert-success')
-                      .innerHTML('Added test for ' + result.Input + '.');
-                    }*/
-                    console.log('additional tests')
-                }} />
+                } />
             </p><p>
                 <input type="button" value="Reset" id="resetButton" onClick={() => {
-                    //table.clear().draw();
-                    //document.getElementById('message').innerHTML('').classList.remove('alert-danger').classList.remove('alert-success');
-                    console.log('reset');
+                    let j
+                    const table = document.getElementById('testresult')
+                    const tablebody = document.getElementById('testingresult')
+                    let rowTotal = tablebody.rows.length;
+                    
+                    for(j = 0; j < rowTotal; j++) {
+                        tablebody.deleteRow(0);
+                    }
+                    
+                    const message = document.getElementById('message')
+                    message.classList.add('alert')
+                    message.classList.remove('alert-danger')
+                    message.classList.add('alert-success')
+                    message.innerHTML = ''
                 }} />
             </p>
             <div id="message" role="alert"></div>
             <h1>Test result</h1>
-            <table id="testresult">
+            <table id="testresult" className="table">
                 <thead>
                     <tr>
                         <th>Test ID</th>
