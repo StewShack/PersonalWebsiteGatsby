@@ -190,22 +190,44 @@ const numericInputTest = function (value) {
   return returnValue
 }
 
+const addTestResultRow = function(id, input, description) {
+    const table = document.getElementById('testresult')
+    const tablebody = document.getElementById('testingresult')
+    let row = tablebody.insertRow()
+    row.insertCell(0).appendChild(document.createTextNode(id))
+    row.insertCell(1).appendChild(document.createTextNode(input))
+    row.insertCell(2).appendChild(document.createTextNode(description))
+}
+
+const removeTestResultRows = function() {
+    const table = document.getElementById('testresult')
+    const tablebody = document.getElementById('testingresult')
+    let j
+    let rowTotal = tablebody.rows.length;
+    for(j = 0; j < rowTotal; j++) {
+        tablebody.deleteRow(0);
+    }
+}
+
+const setMessage = function(msg) {
+    const message = document.getElementById('message')
+    if(msg) {
+        message.classList.add('alert')
+        message.classList.add('alert-success')
+        message.innerHTML = msg
+    } else {
+        message.classList.remove('alert')
+        message.classList.remove('alert-success')
+        message.innerHTML = ''
+    }
+}
+
 const test = function() {
     let numericInput = document.getElementById('number').value
     let result = numericInputTest(numericInput)
     numericInput = escape(numericInput)
-    const table = document.getElementById('testresult')
-    const tablebody = document.getElementById('testingresult')
-    let row = tablebody.insertRow()
-    row.insertCell(0).appendChild(document.createTextNode(result.Id))
-    row.insertCell(1).appendChild(document.createTextNode(numericInput))
-    row.insertCell(2).appendChild(document.createTextNode(result.Description))
-
-    const message = document.getElementById('message')
-    message.classList.add('alert')
-    message.classList.remove('alert-danger')
-    message.classList.add('alert-success')
-    message.innerHTML = 'Added test ID ' + result.Id + ' for input ' + numericInput + '.'  
+    addTestResultRow(result.Id, escape(numericInput), result.Description)
+    setMessage('Added test ID ' + result.Id + ' for input ' + numericInput + '. ' + result.Description)  
 }
 
 return (
@@ -218,8 +240,8 @@ return (
                 July 19, 2014<br />
                 <a href="https://mit-license.org">MIT License</a>
             </p><p>
-                Testing numeric input was inspired by 
-                <a hrf="https://www.amazon.com/Lessons-Learned-Software-Testing-Context-Driven/dp/0471081124">Lessons Learned 
+                Testing numeric input was inspired 
+                by <a href="https://www.amazon.com/Lessons-Learned-Software-Testing-Context-Driven/dp/0471081124">Lessons Learned 
                 in Software Testing: A Context Driven Approach</a> by Cem Kaner, James Bach, and Bret Pettichord.
             </p><p>
                 Here is a numeric field. Go ahead and test it for input validation. You do not need to test the "-ilities" such 
@@ -234,39 +256,21 @@ return (
                 <input type="button" value="Test It" id="testButton" onClick={test} />
             </p><p>
                 <input type="button" value="Show All Tests" id="moreTestsButton" onClick={() => {
-                    const table = document.getElementById('testresult')
-                    const tablebody = document.getElementById('testingresult')
-                    let j
-                    let rowTotal = tablebody.rows.length;
-                    for(j = 0; j < rowTotal; j++) {
-                        tablebody.deleteRow(0);
+                        removeTestResultRows()
+                        setMessage('')
+                        let i
+                        for(i = 0; i < numericInputTestResults.length; i++) {
+                            addTestResultRow(numericInputTestResults[i].Id, 
+                                numericInputTestResults[i].Input,
+                                numericInputTestResults[i].Description)
+                        }
                     }
-                    
-                    let i
-                    for (i = 0; i < numericInputTestResults.length; i++) {
-                        let row = tablebody.insertRow()
-                        row.insertCell(0).appendChild(document.createTextNode(numericInputTestResults[i].Id))
-                        row.insertCell(1).appendChild(document.createTextNode(numericInputTestResults[i].Input))
-                        row.insertCell(2).appendChild(document.createTextNode(numericInputTestResults[i].Description))
-                      }
-                    }
-                } />
+                }
+                />
             </p><p>
                 <input type="button" value="Reset" id="resetButton" onClick={() => {
-                    let j
-                    const table = document.getElementById('testresult')
-                    const tablebody = document.getElementById('testingresult')
-                    let rowTotal = tablebody.rows.length;
-                    
-                    for(j = 0; j < rowTotal; j++) {
-                        tablebody.deleteRow(0);
-                    }
-                    
-                    const message = document.getElementById('message')
-                    message.classList.add('alert')
-                    message.classList.remove('alert-danger')
-                    message.classList.add('alert-success')
-                    message.innerHTML = ''
+                    removeTestResultRows()
+                    setMessage('')
                 }} />
             </p>
             <div id="message" role="alert"></div>
