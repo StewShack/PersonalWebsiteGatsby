@@ -1,9 +1,8 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import PropTypes from 'prop-types';
+import { graphql, useStaticQuery } from "gatsby"
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Tooltip from 'react-bootstrap/Tooltip';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlask } from '@fortawesome/free-solid-svg-icons/faFlask';
 import { faBeer } from '@fortawesome/free-solid-svg-icons/faBeer';
@@ -49,5 +48,9 @@ const Navigation = (props) => {
         </Navbar>
     )
 }
+
+Navigation.propTypes = {
+  activemenu: PropTypes.string
+};
 
 export default Navigation;

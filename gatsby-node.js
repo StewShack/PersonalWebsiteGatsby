@@ -30,7 +30,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
 }
 
 module.exports.onCreateNode = ({ node, actions }) => {
-  const { createNode, createNodeField } = actions
+  const { createNodeField } = actions
   
   if(node.internal.type == "MarkdownRemark") {
       const slug = path.basename(node.fileAbsolutePath, ".md")

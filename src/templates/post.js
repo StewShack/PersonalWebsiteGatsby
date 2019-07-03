@@ -1,8 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
-
 import Head from "../components/head"
 import Layout from "../components/layout"
+import PropTypes from 'prop-types';
 
 export const query = graphql`
 query ($slug: String!) {
@@ -26,5 +26,15 @@ const post = (props) => {
         </Layout>
     )
 }
+
+post.propTypes = {
+  data: PropTypes.any,
+  markdownRemark: PropTypes.any,
+  frontmatter: PropTypes.any,
+  activemenu: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  html: PropTypes.string
+};
 
 export default post

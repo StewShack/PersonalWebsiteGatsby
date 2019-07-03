@@ -1,8 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import PropTypes from 'prop-types';
 
-const Head = ({ title, description }) => {
+const Head = ({title, description}) => {
     const data = useStaticQuery(graphql`
     query {
         site {
@@ -16,7 +17,7 @@ const Head = ({ title, description }) => {
     return (
         <Helmet>
             <meta charset="utf-8" />  
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
             <meta name="msapplication-tap-highlight" content="no" />
             <meta name="msapplication-TileColor" content={`${data.site.siteMetadata.themeColor}`} />
@@ -28,5 +29,10 @@ const Head = ({ title, description }) => {
         </Helmet>
     )
 }
+
+Head.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string
+};
 
 export default Head
