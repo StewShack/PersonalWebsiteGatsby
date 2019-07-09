@@ -43,7 +43,7 @@ public void Game_AllOnes_ReturnsScore()
 
 Let's compile and run the test.
 
-<span style="color: red">1 test failed "Expected: 20 But was: 0"</span>
+<div class="alert alert-danger" role="alert">1 test failed "Expected: 20 But was: 0"</div>
 
 We need to get this code passing. Looking at the score method we are returning a 0. This is because we are at the "constant" stage of 
 [Uncle Bob's Transformation Priority Premise](https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html). 
@@ -67,7 +67,7 @@ public int Score()
         
 Compile and run the tests.
 
-<span style="color: green">2 tests passed</span>
+<div class="alert alert-success" role="alert">2 tests passed</div>
 
 Now that our tests are passing, we can do some refactoring.
 

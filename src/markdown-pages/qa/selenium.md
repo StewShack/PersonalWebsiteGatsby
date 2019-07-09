@@ -7,11 +7,11 @@ layout: "index"
 activemenu: "testing"
 ---
 
-# Selenium UI Testing with C# #
-
 By: Dan Stewart\
 November 3, 2014\
 [MIT License](https://mit-license.org)
+
+Selenium UI Testing with C#
 
 Let's check on a web page using C#, Visual Studio, NUnit, and Selenium Web Driver.
 

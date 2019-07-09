@@ -10,6 +10,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons/faCode';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faGoodreads } from '@fortawesome/free-brands-svg-icons/faGoodreads';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
+import { faMix } from '@fortawesome/free-brands-svg-icons/faMix';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons/faYoutube';
 
@@ -41,6 +42,7 @@ const Navigation = (props) => {
                     <Nav.Link href={data.site.siteMetadata.github}><FontAwesomeIcon icon={faGithub} size="lg" /></Nav.Link>
                     <Nav.Link href={data.site.siteMetadata.goodreads}><FontAwesomeIcon icon={faGoodreads} size="lg" /></Nav.Link>
                     <Nav.Link href={data.site.siteMetadata.linkedin}><FontAwesomeIcon icon={faLinkedin} size="lg" /></Nav.Link>
+                    <Nav.Link href={data.site.siteMetadata.mix}><FontAwesomeIcon icon={faMix} size="lg" /></Nav.Link>
                     <Nav.Link href={data.site.siteMetadata.twitter}><FontAwesomeIcon icon={faTwitter} size="lg" /></Nav.Link>
                     <Nav.Link href={data.site.siteMetadata.youtube}><FontAwesomeIcon icon={faYoutube} size="lg" /></Nav.Link>
                 </Nav>

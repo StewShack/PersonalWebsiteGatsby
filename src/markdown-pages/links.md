@@ -6,11 +6,10 @@ lastmod: 2019-02-27T00:00:00-00:00
 layout: "home"
 ---
 
+These links are being migrated to my [Mix Page](https://mix.com/stewshack)
+
  Date (YYYY/MM/DD) | Link | Tags 
  ------------------|------|------
- 2019/02/27 | [Immersive linear algebra](http://immersivemath.com/ila/index.html) | Math
- 2019/02/27 | [Professional Software Development, by Mike G.Miller. Chapter 5 - Software Quality](https://mixmastamyk.bitbucket.io/pro_soft_dev/sdlc_5_qa.html) | Testing
- 2019/02/26 | [Test Automation University](https://testautomationu.applitools.com/) | Testing
  2019/02/20 | [Philosophy Now](https://philosophynow.org/) | Learning
  2019/02/20 | [Free HTML Website templates](https://htmltemplates.co/) | Web
  2019/02/20 | [Y Combinator Resources for Developers](https://ycombinator.dev/) | Dev, Tools

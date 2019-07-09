@@ -98,7 +98,7 @@ namespace BowlingGame
         
 Running the tests results in the following error:
 
-<span style="color: red">1 test failed "System.NotImplementedException"</span>
+<div class="alert alert-danger" role="alert">1 test failed "System.NotImplementedException"</div>
 
 We need to get the test passing with as little code as possible. This helps us take
 small, incremental steps and keeps our code always working.
@@ -127,7 +127,7 @@ namespace BowlingGame
         
 We remove the exception and run the test again.
 
-<span style="color: green">1 test passed</span> 
+<div class="alert alert-success" role="alert">1 test passed</div> 
 
 Now that we have a passing test, we can refactor. This is the Red, Green, Refactor
 pattern from Kent Beck's book, 

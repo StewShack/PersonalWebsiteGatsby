@@ -50,7 +50,7 @@ public void Game_Spare_ReturnsScorePlusBonus()
         
 Let's compile and run the test.
 
-<span style="color: red">1 test failed "Expected: 16 But was: 13"</span>
+<div class="alert alert-danger" role="alert">1 test failed "Expected: 16 But was: 13"</div>
 
 We didn't get our bonus. Our code has no concept of keeping track of frames and
 adding a bonus to an earlier score.
@@ -77,14 +77,13 @@ public void Game_Spare_ReturnsScorePlusBonus()
                 
 Now when we run the tests we see yellow.
 
-<span style="color: orange">Inconclusive: A game with a spare is not giving the bonus.</span>
+<div class="alert alert-warning" role="alert">Inconclusive: A game with a spare is not giving the bonus.</div>
         
 We come back to work the next day ready to tackle the "spare" problem. We can pick right back up 
 where we left off by running the tests and seeing the comment.
 
 Right now, our Game is using a variable to hold the score. This score is now conditional
-on the need to add a bonus. Looking at 
-[Uncle Bob's Priority Premise](https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html) 
+on the need to add a bonus. Looking at [Uncle Bob's Priority Premise](https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html) 
 the next step after the use of a variable is an unconditional statement.
 
 Let's start by adding the unconditional statement of keeping track of every roll
@@ -154,7 +153,7 @@ public int Score()
 }
 ```
 
-<span style="color: green">3 tests passed</span> 
+<div class="alert alert-success" role="alert">3 tests passed</div> 
 
 Our tests are passing, it's time to refactor.
 
@@ -191,7 +190,7 @@ private bool Spare( int roll )
         
 We compile and run the tests.
 
-<span style="color: green">3 tests passed</span>
+<div class="alert alert-success" role="alert">3 tests passed</div>
 
 Looking at our test we see that these two lines simulate rolling a spare:
 

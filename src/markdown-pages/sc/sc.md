@@ -9,28 +9,33 @@ activemenu: "web"
 
 # Developer
 
-## C# ##
+
+C#
 
 * [log4net](/aspnet/log4net/)
 * [Reading a File](/aspnet/csharpreadfile/)
 * [Strings](/aspnet/strings/)
+* [Bowling Game](/post/bowlinggame)
+* [Factorial](/post/factorial)
+* [FizzBuzz](/post/fizzbuzz)
+* [Sorting](/post/sortingkata)
 
-## CSS
+CSS
 
 * [Mouse Pointers](/mouse/)
 
-## Node.js
+Node.js
 
-* [Jasper report using REST and Node.js](/node/jasper-rest/)
+* [Jasper report using REST and Node.js](/post/jasper-rest/)
 
-## Software Craftsmanship
+Software Craftsmanship
 
 * [Getting it Wrong the First Time](/sc/wrong/)
 * [My Journey](/sc/journey/) towards becoming a better Craftsman.
 * [Programming](/sc/programming/) theories not found in a textbook.
 * [Code Kata](/kata/)
 
-## SQL
+SQL
 
 * [Jasper Reports Tables and Parameters](/sql/jasper-table-parameters/)
 * [Replication between different schemas](/sql/replicationdifferentschemas/)

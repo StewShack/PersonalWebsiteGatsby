@@ -47,7 +47,7 @@ public void Game_Strike_ReturnsScorePlusDoubleBonus()
 
 We compile and run the after refactoring.
 
-<span style="color: green">4 tests passed</span> 
+<div class="alert alert-success" role="alert">4 tests passed</div> 
 
 Wait! That test was supposed to fail! That's why we always want to see red when
 we are writing tests. Red, Green, Refactor.
@@ -97,7 +97,7 @@ public int Score()
 
 Let's run the tests.
 
-<span style="color: red">1 test failed "System.NotImplementedException"</span>
+<div class="alert alert-danger" role="alert">1 test failed "System.NotImplementedException"</div>
 
 Good, now that we are seeing red, we can make it green.
 
@@ -130,7 +130,7 @@ public int Score()
 }
 ```
 
-<span style="color: green">4 tests passed</span> 
+<div class="alert alert-success" role="alert">4 tests passed</div> 
 
 Now that our tests pass, let's refactor. First the Game.
 
@@ -193,7 +193,7 @@ We are striving to keep the Score method at "one level of abstraction" [Clean Co
 
 After refactoring we compile and run the tests.
         
-<span style="color: green">4 tests passed</span> 
+<div class="alert alert-success" role="alert">4 tests passed</div> 
 
 Now, let's take a look at the tests.
 
@@ -232,6 +232,7 @@ namespace BowlingGame.Test
 {
     [TestFixture]
     public class GameTest
+    {
     {
         [SetUp]
         public void TestSetup()

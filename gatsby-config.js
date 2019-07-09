@@ -4,13 +4,14 @@ module.exports = {
     description: 'Personal Website for Dan Stewart',
     email: 'danstewart@live.com',
     github: 'https://github.com/StewShack/PersonalWebsiteGatsby',
-    linkedin: 'https://www.linkedin.com/in/stewshack',
-    youtube: 'https://www.youtube.com/user/stewshack',
     goodreads: 'https://goodreads.com/stewshack',
+    linkedin: 'https://www.linkedin.com/in/stewshack',
+    mix: 'https://mix.com/stewshack',
     siteUrl: 'https://www.www.stewshack.com',
     themeColor: '#10a51d',
     title: 'StewShack',
-    twitter: 'https://twitter.com/stewshack'
+    twitter: 'https://twitter.com/stewshack',
+    youtube: 'https://www.youtube.com/user/stewshack'
   },
   plugins: [
     {

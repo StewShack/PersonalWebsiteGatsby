@@ -6,7 +6,6 @@ lastmod: 2017-08-28T00:00:00-00:00
 layout: "index"
 activemenu: "testing"
 ---
-
 # Selenium UI Testing with Node
 
 By: Dan Stewart\

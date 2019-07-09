@@ -7,13 +7,6 @@ layout: "index"
 activemenu: "web"
 ---
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
-    <li class="breadcrumb-item">FizzBuzz</li>
-  </ol>
-</nav>
-
 By: Dan Stewart\
 May 3, 2014\
 [MIT License](https://mit-license.org)

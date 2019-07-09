@@ -9,14 +9,22 @@ activemenu: "testing"
 
 # Software Quality Engineer
 
-* [Crawling a Webpage with C#](/post/csharp-crawl)
-* [Crawling a Webpage with Node](/post/node-crawl)
-* [Selenium UI Testing with C#](/post/selenium)
-* [Selenium UI Testing with Node](/post/selenium-node)
+General
+
 * [Testing Column Length Changes](/post/testing-column-length-change)
-* [Testing File Paths from a Database with C#](/post/testing-filepaths-from-database-csharp)
-* [Testing File Paths from a Database with Node](/post/testing-filepaths-from-database)
-* [Testing Jasper Reports with C#](/post/jasper-report-tests-csharp)
-* [Testing Jasper Reports with Node](/post/jasper-report-tests)
 * [Testing Numeric Input](/numeric)
 * [Testing Process](/post/testing-process)
+
+C#
+
+* [Crawling a Webpage with C#](/post/csharp-crawl)
+* [Selenium UI Testing with C#](/post/selenium)
+* [Testing File Paths from a Database with C#](/post/testing-filepaths-from-database-csharp)
+* [Testing Jasper Reports with C#](/post/jasper-report-tests-csharp)
+
+Node.js
+
+* [Crawling a Webpage using Node.js](/post/crawl/)
+* [Selenium UI Testing with Node.js](/post/selenium-node)
+* [Testing Jasper reports using REST and Node.js](/post/jasper-report-tests/)
+* [Testing file paths held in a database using Node.js](/post/testing-filepaths-from-database/)
