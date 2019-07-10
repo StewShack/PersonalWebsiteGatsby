@@ -3,37 +3,30 @@
     background-repeat: no-repeat;
     padding-bottom: 200px;
     width: 100%;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;  
 }
 
 a {
-	color: blue;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 a:visited {
     color: purple;
-}
-
-.content {
-    padding-bottom: 5em;
-	padding-left: 2em;
-    padding-right: 2em;
+    font-weight: bold;
 }
 
 .u {
     text-decoration: underline;
 }
 
-.hidden {
-    visibility: hidden;
+.container {
+    background-color: #fff;
+    padding: 0.5em;
 }
 
-.failingTest {
-	color: #F00;
-	font-weight: bold;
-}
-
-.passingTest {
-	color: #080;
-	font-weight: bold;
+body {
+    padding: 1em;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }

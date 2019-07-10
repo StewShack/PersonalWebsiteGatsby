@@ -13,7 +13,7 @@ activemenu: "home"
             
 # About Me
  
-I am a Quality Engineer, developer, and homebrewer.
+I am a quality engineer, developer, and homebrewer.
 
 After 17 years in Web development, I was offered a position as a Quality Engineer. I fell in love 
 with testing after I began to use Test Driven Development. I discovered that I am a better "breaker" than I am a "maker". 

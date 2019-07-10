@@ -22,6 +22,7 @@ const Navigation = (props) => {
                     github,
                     goodreads,
                     linkedin,
+                    mix,
                     twitter,
                     youtube
                 }

@@ -30,6 +30,7 @@ module.exports = {
             path: `${__dirname}/src/`
         }
     },
+    'gatsby-plugin-sass',
     {
         resolve: 'gatsby-transformer-remark',
         options: {
