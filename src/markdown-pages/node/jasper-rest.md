@@ -3,7 +3,6 @@ title: "Jasper report using REST and Node.js"
 description: "Running Jasper reports through it's API using Node.js"
 date: 2016-10-07T00:00:00-00:00
 lastmod: 2016-10-07T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 

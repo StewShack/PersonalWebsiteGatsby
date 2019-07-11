@@ -3,11 +3,8 @@ title: "Sorting Kata - Setup"
 description: "Setting up the sorting kata"
 date: 2013-07-26T00:00:00-00:00
 lastmod: 2018-02-28T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
-
-{{<breadcrumb "[Kata](/kata/)" "Sorting">}}
 
 # Sorting Kata - Setup
 
@@ -137,4 +134,4 @@ namespace BookSorting.Test
 
 The next step is the purpose of the Kata. How are we going to sort these books?
 
-[Next &raquo;](/sortingkata/linqorderby/)
+[Next &raquo;](/post/linqorderby/)

@@ -3,7 +3,6 @@ title: "Journey"
 description: "My journey towards becoming an IT professional"
 date: 2018-02-21T00:00:00-00:00
 lastmod: 2018-02-21T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
@@ -63,7 +62,7 @@ This was the shock that I needed to wake me up. This experience got me into Soft
 It is humbling to describe my journey. It is far from over, but I finally feel like I am on the path to mastery.
 
 I began to read anything I could get my hands on about these topics. You can view my library by visiting my 
-[Amazon profile](https://www.amazon.com/gp/profile/amzn1.account.AHZGPAAO3R4JAEXOKYSTHWT57IEQ) profile page and my [links](/links/) page. 
+[Goodreads profile](https://goodreads.com/stewshack) profile page and my [Mix](https://mix.com/stewshack) page. 
 
 I then began to practice and improve my skills.
 

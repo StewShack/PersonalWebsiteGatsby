@@ -3,11 +3,15 @@ title: "Sorting Kata - Selection Sort"
 description: "Sorting using Selection Sort in C#"
 date: 2013-09-20T00:00:00-00:00
 lastmod: 2018-03-03T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "Selection Sort">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/sortingkata">Sorting</a></li>
+    <li class="breadcrumb-item">Selection Sort</li>
+  </ol>
+</nav>
 
 # Sorting Kata - Selection Sort
 
@@ -15,13 +19,13 @@ By: Dan Stewart\
 March 03, 2018\
 [MIT License](https://mit-license.org)
 
-In the [setup](/sortingkata/) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata. 
+In the [setup](/post/sortingkata) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata. 
 
-In [Linq OrderBy](/sortingkata/linqorderby/) we added a Bookshelf class to hold our sorting methods. 
+In [Linq OrderBy](/post/linqorderby) we added a Bookshelf class to hold our sorting methods. 
 
-In [List Sort](/sortingkata/listsort/) we used the built-in sort method of a list. This required us to implement IComparable in the Book class. 
+In [List Sort](/post/listsort) we used the built-in sort method of a list. This required us to implement IComparable in the Book class. 
 
-In [Bubble Sort](/sortingkata/bubblesort) we overloaded the &lt; and &gt; operators so that books could be sorted through a simple sort. 
+In [Bubble Sort](/post/bubblesort) we overloaded the &lt; and &gt; operators so that books could be sorted through a simple sort. 
 
 Here is our Book class. 
 
@@ -99,6 +103,7 @@ Now we are going to write our own Selection Sort method.
 We write a failing test first.
 
 BookSorting.Test/SortingTest.cs
+
 ```csharp
 [Test]
 public void Authors_SortedByLastNameSelectionSort()
@@ -160,12 +165,12 @@ public List<Book> SelectionSort(List<Book> books)
 }
 ```
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed Expected: &lt;Partnoy, Frank. Wait: The Art and Science of Delay&gt; But was:
 &lt;Watt, Andrew. Beginning Regular Expressions&gt; 
-{{< /color >}}
+</div>
 
-In [Linq OrderBy](/sortingkata/linqorderby/) we overrode the Book.ToString() to get the author and title. 
+In [Linq OrderBy](/post/linqorderby) we overrode the Book.ToString() to get the author and title. 
 
 We saw a failing test (Red), and we made sure the message was helpful. Now we can make it green. 
 
@@ -214,8 +219,8 @@ the book that precedes it and put it in the book's spot. Then we put the book in
 
 When we run the test we see: 
 
-{{< color "green" >}}
+<div class="alert alert-success" role="alert">
 1 test passing 
-{{< /color >}}
+</div>
 
-[Next &raquo;](/sortingkata/mergesort)
+[Next &raquo;](/post/mergesort)

@@ -3,7 +3,6 @@ title: "Testing Jasper reports using REST and Node.js"
 description: "Testing Jasper reports through it's API using Node.js"
 date: 2016-12-18T00:00:00-00:00
 lastmod: 2018-12-02T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
 

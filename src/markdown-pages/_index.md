@@ -4,7 +4,6 @@ description: "Personal website for Dan Stewart"
 date: 2018-01-27T00:00:00-00:00
 lastmod: 2019-01-14T00:00:00-00:00
 draft: false
-layout: "index"
 activemenu: "home"
 ---
 

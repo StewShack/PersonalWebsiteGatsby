@@ -3,9 +3,10 @@ title: "Testing File Paths from a Database with C#"
 description: "Test that file paths exist using C# and Dapper to get the paths from a database"
 date: 2018-04-19T00:00:00-00:00
 lastmod: 2018-04-19T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
+
+# Testing File Paths from a Database with C&#35;
 
 By: Dan Stewart\
 April 19, 2018\
@@ -42,7 +43,7 @@ namespace file-tests
       const string connectionString = "Server=databaseserver.stewshack.com;"
         + "Initial Catalog=stewdb;User ID=user;Password=P@ssw0rd!;Connection Timeout=300;";
       
-      const string contentDirectory = @"\\stewfs\docs\";
+      const string contentDirectory = "\\\\stewfs\\docs\\";
 
       var contentKeys = new List<int>
       {

@@ -3,17 +3,17 @@ title: "Bowling Game Kata - Part 5 Strike Game"
 description: "A bowling game of one strike unit test with C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
     <li class="breadcrumb-item"><a href="/post/bowlinggame">Bowling Game</a></li>
     <li class="breadcrumb-item">Strike Game</li>
   </ol>
 </nav>
+
+# Bowling Game Kata - Part 5 Strike Game
 
 By: Dan Stewart\
 October 4, 2017\

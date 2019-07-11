@@ -3,7 +3,6 @@ title: "Replication Comparison between Different Servers"
 description: "Comparing replication articles between servers"
 date: 2013-09-19T00:00:00-00:00
 lastmod: 2013-09-19T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 

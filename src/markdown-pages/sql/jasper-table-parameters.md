@@ -3,7 +3,6 @@ title: "Jasper Reports Tables and Parameters"
 description: "Using tables and parameters with Jasper reports"
 date: 2016-08-30T00:00:00-00:00
 lastmod: 2018-12-03T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
@@ -20,7 +19,7 @@ This is how I passed that parameter to a table inside the report to get the resu
 
 ## Prerequisites
 
-First you need to have Jasper Server and TIBCO Jaspersoft<sup>&reg;</sup> Studio installed.
+First you need to have Jasper Server and TIBCO Jaspersoft Studio installed.
 
 A data adapter needs to be connected to the database.
 
@@ -31,7 +30,7 @@ then we will deploy it to the server.
 
 Right-click on MyReports and add a new Jasper Report.
 
-!{New Jasper Report](/images/sql/jasper/new-jasper-report.png)
+![New Jasper Report](/images/sql/jasper/new-jasper-report.png)
 
 In the New Report Wizard, choose a blank template.
 

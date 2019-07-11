@@ -3,11 +3,15 @@ title: "Sorting Kata - Bubble Sort"
 description: "Sorting using Bubble Sort in C#"
 date: 2013-08-21T00:00:00-00:00
 lastmod: 2018-03-02T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "Bubble Sort">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/sortingkata">Sorting</a></li>
+    <li class="breadcrumb-item">Bubble Sort</li>
+  </ol>
+</nav>
 
 # Sorting Kata - Bubble Sort
 
@@ -15,11 +19,11 @@ By: Dan Stewart\
 March 2, 2018\
 [MIT License](https://mit-license.org)
 
-In the [setup](/sortingkata/) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata. 
+In the [setup](/post/sortingkata) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata. 
 
-In [Linq OrderBy](/sortingkata/linqorderby/) we added a Bookshelf class to hold our sorting methods. 
+In [Linq OrderBy](/post/linqorderby) we added a Bookshelf class to hold our sorting methods. 
 
-In [List Sort](/sortingkata/listsort/) we used the built-in sort method of a list. This required us to implement IComparable in the Book class. 
+In [List Sort](/post/listsort) we used the built-in sort method of a list. This required us to implement IComparable in the Book class. 
 
 Here is our Book class. 
 
@@ -146,12 +150,12 @@ public List<Book> BubbleSort(List<Book> books)
 }
 ```
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed Expected: Partnoy, Frank. Wait: The Art and Science of Delay But was:
 Watt, Andrew. Beginning Regular Expressions 
-{{< /color >}}
+</div>
 
-In [Linq OrderBy](/sortingkata/linqorderby/) we overrode the Book.ToString() to get the author and title. 
+In [Linq OrderBy](/post/linqorderby) we overrode the Book.ToString() to get the author and title. 
 
 We saw a failing test (Red), and we made sure the message was helpful. Now we can make it green. 
 
@@ -258,12 +262,12 @@ the book comes before the other book.
 
 If we compare Watt to Partnoy we get back more than 1 because Watt follows Partnoy. That means Watt &lt; Partnoy. A positive number means 
 the book comes after the other book.        
+ 
+## Conclusion
 
 When we run the test we see: 
 
-{{< color "green" >}}1 test passing{{< /color >}}
- 
-## Conclusion
+<div class="alert alert-success" role="alert">1 test passing</div>
 
 To get Bubble Sort working we had to teach the Book class when it was greater or less than another book. 
 
@@ -273,6 +277,4 @@ Our book then "bubbles up" the bookshelf to be placed in order.
 
 I recommend setting a breakpoint and watching the list of books change order.
 
-[Next &raquo;](/sortingkata/insertionsort)
-
-{{< datatable >}}
+[Next &raquo;](/post/insertionsort)

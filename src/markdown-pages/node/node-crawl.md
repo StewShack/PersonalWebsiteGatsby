@@ -3,7 +3,6 @@ title: "Crawling a Webpage using Node.js"
 description: "Crawling a webpage using Node.js and broken-link-checker"
 date: 2017-08-08T00:00:00-00:00
 lastmod: 2017-08-08T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
 
@@ -21,8 +20,8 @@ $ npm init
 
 You can complete the npm init questions as you see fit. Here is my initial package.json file.
 
-
 package.json
+
 ```javascript
 {
   "name": "crawl",
@@ -46,6 +45,7 @@ $ npm install broken-link-checker --save
 Here is my updated package.json file.
 
 package.json
+
 ```javascript
 {
   "name": "jasper-tests",
@@ -66,6 +66,7 @@ package.json
 Now that the setup is complete, we can start writing the crawler.
 
 crawl.js
+
 ```javascript
 "use strict";
 
@@ -101,6 +102,7 @@ siteChecker.enqueue("http://www.stewshack.com");
 We can update the package.json file with the script to run the crawler.
 
 package.json
+
 ```javascript
 "scripts": {
   "start": "node ./crawl.js"

@@ -3,11 +3,10 @@ title: "Testing file paths held in a database using Node.js"
 description: "Using Node.js to test filepaths from a database using lodash, mocha, sequelize, and tedious"
 date: 2016-12-18T00:00:00-00:00
 lastmod: 2018-12-02T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
 
-# Testing File Paths held in a Database with Node
+# Testing File Paths held in a Database with Node.js
 
 By: Dan Stewart\
 December 2, 2018\
@@ -75,6 +74,7 @@ $ npm install lodash mocha sequelize tedious --save
 Here is my updated package.json file.
 
 package.json
+
 ```javascript
 {
   "name": "file-tests",
@@ -103,6 +103,7 @@ It is a development dependency because we are using it to lint our JavaScript co
 Now that we have eslint, we can update the package.json file with a test to run it.
 
 package.json
+
 ```javascript
 "scripts": {
   "test": "./node_modules/.bin/eslint --color *.js */*.js"
@@ -118,6 +119,7 @@ Now that the setup is complete, we can start writing tests.
 Our tests rely on information that might change in the future. So we are going to create a config.js file.
 
 config.json
+
 ```javascript
 "use strict";
 
@@ -134,6 +136,7 @@ module.exports = {
 Add a file to run the verification into the test folder.
 
 test/content.js
+
 ```javascript
 "use strict";
 
@@ -189,6 +192,7 @@ describe("Content should exist.", function confirm() {
 We can update the package.json file with the script to run the tests.
 
 package.json
+
 ```javascript
 "scripts": {
   "test": "./node_modules/.bin/eslint --color *.js */*.js",

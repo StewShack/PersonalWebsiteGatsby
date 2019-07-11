@@ -3,9 +3,10 @@ title: "Crawling a Webpage Using C#"
 description: "Using Abot and C# to crawl a webpage looking for broken links"
 date: 2017-08-08T00:00:00-00:00
 lastmod: 2017-08-08T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
+
+# Crawling a Webpage Using C&#35;
 
 By: Dan Stewart\
 August 8, 2017\

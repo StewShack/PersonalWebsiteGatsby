@@ -3,9 +3,9 @@ title: "Selenium UI Testing with Node"
 description: "Using Node.js to run Selenium tests"
 date: 2017-08-28T00:00:00-00:00
 lastmod: 2017-08-28T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
+
 # Selenium UI Testing with Node
 
 By: Dan Stewart\
@@ -25,6 +25,7 @@ npm install selenium-webdriver --save
 ```
 
 package.json
+
 ```javascript
 {
   "name": "stewshack-numeric-input-testing",
@@ -46,6 +47,7 @@ package.json
 Now we can write a test for a webpage.
 
 app.js
+
 ```javascript
 "use strict";
 

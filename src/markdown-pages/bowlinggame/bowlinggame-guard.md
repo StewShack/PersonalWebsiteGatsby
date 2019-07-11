@@ -3,18 +3,18 @@ title: "Bowling Game Kata Guard Clause"
 description: "The bowling game unit tests with a guard clause using C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
     <li class="breadcrumb-item"><a href="/post/bowlinggame">Bowling Game</a></li>
     <li class="breadcrumb-item"><a href="/post/bowlinggame-conclusion">Conclusion</a></li>
     <li class="breadcrumb-item">Guard Clause</li>
   </ol>
 </nav>
+
+# Bowling Game Kata Guard Clause
 
 By: Dan Stewart\
 October 4, 2017\

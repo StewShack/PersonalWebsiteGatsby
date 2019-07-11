@@ -3,7 +3,6 @@ title: "Testing a Column Length Change"
 description: "Things to test for when a column length changes"
 date: 2015-01-09T00:00:00-00:00
 lastmod: 2015-01-09T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
 
@@ -37,7 +36,7 @@ ORDER BY c.Table_Name, c.Column_Name
 
 You remove the false positives like EmailAddress from your results and end up with:
 
-| Table_Name | Column_Name | Data_Type | Character_Maximum_Length |
+| Table Name | Column Name | Data Type | Character Maximum Length |
 |------------|-------------|-----------|--------------------------:|
 | Address | Address1 | varchar | 50 |
 | Address | Address2 | varchar | 50 |
@@ -62,4 +61,3 @@ Database column changes have a ripple effect. Do your best in trying to follow t
 
 Now that you have done the research, you know to test the database, registration, shopping cart, shipping clerk emails&hellip;
 
-{{< datatable >}}

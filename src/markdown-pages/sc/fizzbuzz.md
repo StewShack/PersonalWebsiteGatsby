@@ -3,15 +3,14 @@ title: "FizzBuzz"
 description: "A kata using FizzBuzz exercises"
 date: 2014-05-03T00:00:00-00:00
 lastmod: 2014-05-03T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
+
+# FizzBuzz
 
 By: Dan Stewart\
 May 3, 2014\
 [MIT License](https://mit-license.org)
-
-FizzBuzz
 
 Write a program that prints the numbers from 1 to 100. But for multiples of three
 print "Fizz" instead of the number and for the multiples of five print "Buzz". For

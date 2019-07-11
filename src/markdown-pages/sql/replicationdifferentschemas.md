@@ -3,7 +3,6 @@ title: "Replication between Different Schemas"
 description: "Replicating data between servers and schemas"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
@@ -32,7 +31,7 @@ to control what the subscriber can do with the tables.
 
 ### Disclaimer
 
-I am not a DBA, but I play one at work sometimes. I welcome your [feedback](/contact/).
+I am not a DBA, but I play one at work sometimes. I welcome your feedback.
 
 ### The Setup
 

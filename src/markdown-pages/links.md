@@ -3,10 +3,11 @@ title: "Links"
 description: "A list of links that I keep up to date"
 date: 2010-07-05T00:00:00-00:00
 lastmod: 2019-02-27T00:00:00-00:00
-layout: "home"
 ---
 
-These links are being migrated to my [Mix Page](https://mix.com/stewshack)
+# Links
+
+These links are being migrated to my [Mix page](https://mix.com/stewshack).
 
  Date (YYYY/MM/DD) | Link | Tags 
  ------------------|------|------
@@ -128,7 +129,6 @@ These links are being migrated to my [Mix Page](https://mix.com/stewshack)
  2017/03/28 | [DiviData](https://www.dividata.com) | Investing
  2017/03/28 | [Dividend Channel](https://www.dividendchannel.com) | Investing 
  2017/03/28 | [The Motley Fool](https://www.fool.com) | Investing
- 2017/02/05 | [Color Hunt](https://colorhunt.co/) | Design
  2017/02/05 | [Timer Tab](http://www.timer-tab.com/) | Tools 
  2017/02/05 | [Goals vs. Systems](https://blog.dilbert.com/2013/11/18/goals-vs-systems/) | Life
  2017/02/05 | [Online Typing Practice for Programmers](http://www.speedcoder.net/) | Tools

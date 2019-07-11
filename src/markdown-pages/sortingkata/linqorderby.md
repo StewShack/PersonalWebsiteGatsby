@@ -3,11 +3,15 @@ title: "Sorting Kata - Linq Order By"
 description: "Sorting using Linq in C#"
 date: 2013-07-26T00:00:00-00:00
 lastmod: 2018-02-28T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
-{{< breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "Linq Order By" >}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/sortingkata">Sorting</a></li>
+    <li class="breadcrumb-item">Linq Order By</li>
+  </ol>
+</nav>
 
 # Sorting Kata - Linq Order By
 
@@ -15,7 +19,7 @@ By: Dan Stewart\
 February 28, 2018\
 [MIT License](https://mit-license.org)
 
-In the [setup](/sortingkata/) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata. Now we write a
+In the [setup](/post/sortingkata) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata. Now we write a
 sorting method to test.
 
 BookSorting.Test/SortingTest.cs
@@ -92,7 +96,7 @@ namespace BookSorting
 }
 ```
 
-{{< color "green" >}}1 test passed{{< /color >}}
+<div class="alert alert-success" role="alert">1 test passed</div>
 
 We wanted this test to fail because we are using the Red, Green, Refactor pattern from Kent Beck's book, 
 [Test Driven Design By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530/).
@@ -109,9 +113,9 @@ var books = new List<Book>
 };
 ```
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed: Expected: &lt;BookSorting.Book&gt; But was: &lt;BookSorting.Book&gt;
-{{< /color >}}
+</div>
 
 Alright, it failed for the right reason. Now we need to deal with that failing test message. It's not very helpful. We have two options, 
 change the Assert method to have a message, or overwrite the Book ToString method to return the name of the book instead of the object 
@@ -135,11 +139,11 @@ Assert.AreEqual(
     books.First().Title));
 ```
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed Failed: Expected Partnoy, Frank. Wait: The Art and Science of Delay 
 but was Watt, Andrew. Beginning Regular Expressions 
 Expected: &lt;BookSorting.Book&gt; But was: &lt;BookSorting.Book&gt;
-{{< /color >}}
+</div>
 
 I would not want to write that much code for every assert. Plus, the expected message is still not helpful. Let's overwrite the Book 
 ToString method.
@@ -175,10 +179,10 @@ BookSorting.Test/SortingTest.cs
 Assert.That(books.First(), Is.EqualTo(book1));
 ```
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed Expected: &lt;Partnoy, Frank. Wait: The Art and Science of Delay&gt; 
 But was: &lt;Watt, Andrew. Beginning Regular Expressions&gt;
-{{< /color >}}
+</div>
 
 I can see the advantage of calling Book.ToString() and getting the author and title instead of &lt;BookSorting.Book&gt; so let's 
 stick with that for now.
@@ -206,8 +210,8 @@ namespace BookSorting
 }
 ```
 
-{{<color "green">}}1 test passed{{< /color >}}
+<div class="alert alert-success" role="alert">1 test passed</div>
 
 Let's continue the Kata by using the built-in sort method of a List.
 
-[Next &raquo;](/sortingkata/listsort/)
+[Next &raquo;](/post/listsort)

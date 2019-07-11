@@ -3,15 +3,14 @@ title: "Selenium UI Testing with C#"
 description: "Using C# to run Selenium tests"
 date: 2018-02-21T00:00:00-00:00
 lastmod: 2018-02-21T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
+
+# Selenium UI Testing with C&#35;
 
 By: Dan Stewart\
 November 3, 2014\
 [MIT License](https://mit-license.org)
-
-Selenium UI Testing with C#
 
 Let's check on a web page using C#, Visual Studio, NUnit, and Selenium Web Driver.
 
@@ -23,7 +22,7 @@ Name it StewShack.Web.UI.Tests
 
 Rename Class1.cs to DefaultTest.cs
 
-Let's add the [TestFixture] attribute to our DefaultTest class.
+Let's add the TestFixture attribute to our DefaultTest class.
 
 DefaultTest
 ```csharp

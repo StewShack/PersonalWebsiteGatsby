@@ -3,9 +3,10 @@ title: "Reading a file in C#"
 description: "Using C# to read a file with System.IO and System.Text"
 date: 2017-09-20T00:00:00-00:00
 lastmod: 2017-09-20T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
+
+# Reading a file in C&#35;
 
 By: Dan Stewart\
 September 20, 2017\

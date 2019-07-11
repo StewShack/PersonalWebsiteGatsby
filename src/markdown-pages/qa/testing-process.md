@@ -3,7 +3,6 @@ title: "Testing Process"
 description: "My testing process based on a lot of books, blogs, and experience"
 date: 2016-04-11T00:00:00-00:00
 lastmod: 2018-12-05T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
 
@@ -17,11 +16,11 @@ April 11, 2016\
 
 My testing process is made up of:
 
-1. {{< color "red" >}}Test{{< /color >}} Notes
-1. {{< color "red" >}}Test{{< /color >}} Basis
-1. {{< color "red" >}}Test{{< /color >}} Plan
-1. {{< color "red" >}}Test{{< /color >}} Suite
-1. {{< color "red" >}}Test{{< /color >}} Case
+1. **Test** Notes
+1. **Test** Basis
+1. **Test** Plan
+1. **Test** Suite
+1. **Test** Case
 
 This is my process, but maybe reading about it will help you too. I'm going to add some humor to make it entertaining. 
 At work I'm much more professional.
@@ -51,9 +50,12 @@ and saw it in development.
 I see policies as the foundation of my testing. If I have a question, I get an answer. Then I document it and test for it. 
 I am finding truth. It is very rewarding.
 
->The truth is rarely pure and never simple.
->
->Oscar Wilde, [The Importance of Being Earnest](https://www.amazon.com/Importance-Being-Earnest-Oscar-Wilde/dp/1717968007)
+<blockquote class="blockquote">
+The truth is rarely pure and never simple.
+<footer class="blockquote-footer"> 
+Oscar Wilde, [The Importance of Being Earnest](https://www.amazon.com/Importance-Being-Earnest-Oscar-Wilde/dp/1717968007)
+</footer>
+</blockquote>
 
 Some say, "there is no truth." To them I ask, "is that true?" 
 
@@ -225,5 +227,3 @@ Do you fix the old, bad data or ask to check for nulls in the form?
 1. Edit the form with all of the fields and submit it. Check the database to make sure the values were saved correctly.
 1. Delete a form. Where did you end up? Is there an undelete or a confirmation?
 1. Delete all of the forms. Did you get a null reference exception when the list of forms is displayed?
-
-{{< datatable >}}

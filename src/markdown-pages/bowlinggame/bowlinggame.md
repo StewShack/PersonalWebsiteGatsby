@@ -1,18 +1,12 @@
 ---
-title: "Bowling Game Kata - Part 1"
+title: "Bowling Game Kata Part 1 - Setup"
 description: "Setting up the Bowling Game unit testing kata with C#"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
-    <li class="breadcrumb-item">Bowling Game</li>
-  </ol>
-</nav>
+# Bowling Game Kata Part 1 - Setup
 
 By: Dan Stewart\
 October 4, 2017\

@@ -3,11 +3,15 @@ title: "Sorting Kata - Merge Sort"
 description: "Sorting using Merge Sort in C#"
 date: 2013-09-20T00:00:00-00:00
 lastmod: 2018-03-03T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "Merge Sort">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/sortingkata">Sorting</a></li>
+    <li class="breadcrumb-item">Merge Sort</li>
+  </ol>
+</nav>
 
 # Sorting Kata - Merge Sort
 
@@ -15,13 +19,13 @@ By: Dan Stewart\
 March 3, 2018\
 [MIT License](https://mit-license.org)
 
-In the [setup](/sortingkata/) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata. 
+In the [setup](/post/sortingkata) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata. 
 
-In [Linq OrderBy](/sortingkata/linqorderby/) we added a Bookshelf class to hold our sorting methods. 
+In [Linq OrderBy](/post/linqorderby/) we added a Bookshelf class to hold our sorting methods. 
 
-In [List Sort](/sortingkata/listsort/) we used the built-in sort method of a list. This required us to implement IComparable in the Book class. 
+In [List Sort](/post/listsort/) we used the built-in sort method of a list. This required us to implement IComparable in the Book class. 
 
-In [Bubble Sort](/sortingkata/bubblesort/) we overloaded the &lt; and &gt; operators so that books could be sorted through a simple sort. 
+In [Bubble Sort](/post/bubblesort/) we overloaded the &lt; and &gt; operators so that books could be sorted through a simple sort. 
 
 Here is our Book class. 
 
@@ -163,12 +167,12 @@ public List<Book> MergeSort(List<Book> books)
 }
 ```
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed Expected: &lt;Partnoy, Frank. Wait: The Art and Science of Delay&gt; 
 But was: &lt;Watt, Andrew. Beginning Regular Expressions&gt;
-{{< /color >}} 
+</div> 
 
-In [Linq OrderBy](/sortingkata/linqorderby/) we overrode the Book.ToString() to get the author and title. 
+In [Linq OrderBy](/post/linqorderby/) we overrode the Book.ToString() to get the author and title. 
 
 We saw a failing test (Red), and we made sure the message was helpful. Now we can make it green. 
 
@@ -275,6 +279,4 @@ books on the end of the final, sorted book list. Finally, we return the sorted l
 
 When we run the test we see: 
 
-{{< color "green" >}}1 test passing{{< /color >}} 
-
-{{< datatable >}}
+<div class="alert alert-success" role="alert">1 test passing</div>

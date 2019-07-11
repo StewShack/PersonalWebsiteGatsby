@@ -3,15 +3,14 @@ title: "Factorial Kata"
 description: "A kata to write a factorial program"
 date: 2013-07-22T00:00:00-00:00
 lastmod: 2013-07-22T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
+
+# Factorial Kata
 
 By: Dan Stewart\
 July 22, 2013\
 [MIT License](https://mit-license.org)
-
-Factorial Kata
 
 > For recursion to work, two properties must hold. First, there must be one or more **base cases**, where we compute the solution directly without recursion. Second, each recursive call of the procedure must be on a smaller instance of the same problem that will eventually reach a base case.
 

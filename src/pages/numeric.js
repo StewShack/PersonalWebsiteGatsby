@@ -235,6 +235,7 @@ return (
         <Head title="Testing Numeric Input" 
             description="An exercise is testing numeric input" />
         <div>
+            <h1>Testing Numeric Input</h1>
             <p>
                 By: Dan Stewart<br />
                 July 19, 2014<br />

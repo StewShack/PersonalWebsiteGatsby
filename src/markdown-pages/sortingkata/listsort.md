@@ -3,11 +3,15 @@ title: "Sorting Kata - List Sort"
 description: "Sorting using List Sort in C#"
 date: 2013-08-21T00:00:00-00:00
 lastmod: 2018-03-02T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
-{{<breadcrumb "[Kata](/kata/)" "[Sorting](/sortingkata/)" "List Sort">}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/post/sortingkata">Sorting</a></li>
+    <li class="breadcrumb-item">List Sort</li>
+  </ol>
+</nav>
 
 # Sorting Kata - List Sort
 
@@ -15,9 +19,9 @@ By: Dan Stewart\
 March 2, 2018\
 [MIT License](https://mit-license.org)
 
-In the [setup](/sortingkata/) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata.
+In the [setup](/post/sortingkata) we created a solution with two projects. The purpose of these two projects was for a Sorting Kata.
 
-In [Linq OrderBy](/sortingkata/linqorderby/) we added a Bookshelf class to hold our sorting methods. I'm going to overwrite that code to keep the Kata short.
+In [Linq OrderBy](/post/linqorderby) we added a Bookshelf class to hold our sorting methods. I'm going to overwrite that code to keep the Kata short.
 
 Now we can add further sorting methods to test. The List class has a built-in sort method. Let's try it out. First we write a failing test against 
 the Bookshelf class ListSort method.
@@ -73,11 +77,11 @@ public List<Book> ListSort(List<Book> books)
 
 Running the test results in:
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed Expected: &lt;Partnoy, Frank. Wait: The Art and Science of Delay&gt; But was: &lt;Watt, Andrew. Beginning Regular Expressions&gt;
-{{< /color >}}
+</div>
 
-In [Linq OrderBy](/sortingkata/linqorderby/) we overrode the Book.ToString() to get the author and title.
+In [Linq OrderBy](/post/linqorderby) we overrode the Book.ToString() to get the author and title.
 
 We saw a failing test (Red), and we made sure the message was helpful. Now we can make it green.
 
@@ -91,9 +95,9 @@ public List<Book> ListSort(List<Book> books)
 }
 ```
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed System.InvalidOperationException : Failed to compare two elements in the array.           
-{{< /color >}}
+</div>
 
 The List Sort method does not know how to compare two books. We need the Book class to implement 
 [IComparable](https://msdn.microsoft.com/en-us/library/System.IComparable.aspx).
@@ -127,9 +131,9 @@ namespace BookSorting
 }
 ```
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed Expected: &lt;Partnoy, Frank. Wait: The Art and Science of Delay&gt; But was: &lt;Watt, Andrew. Beginning Regular Expressions&gt;
-{{< /color >}}
+</div>
 
 Returning -1 causes the test fail for the right reason and gives a helpful message. 
 
@@ -137,9 +141,9 @@ Let's try every constant that the CompareTo can return and test it.
 
 | Test Results | Value | Description |
 |--------------|-------:|-------------|
-| {{< color "red" >}}Fail{{< /color >}} | -1 | Less than zero means this instance of book precedes the compared book in the sort order. |
-| {{< color "red" >}}Fail{{< /color >}} | 0 | Zero means this instance of book occurs in the same position in the sort order as the compared book.|
-| {{< color "green" >}}Pass{{< /color >}} | 1 | Greater than zero means this instance of book follows compared book in the sort order. |
+| <div class="alert alert-danger" role="alert">Fail</div> | -1 | Less than zero means this instance of book precedes the compared book in the sort order. |
+| <div class="alert alert-danger" role="alert">Fail</div> | 0 | Zero means this instance of book occurs in the same position in the sort order as the compared book.|
+| <div class="alert alert-success" role="alert">Pass</div> | 1 | Greater than zero means this instance of book follows compared book in the sort order. |
 
 Returning 1 causes the test to pass when it should not. Let's update our test so that 1 also fails.
 
@@ -195,10 +199,10 @@ public void Authors_SortedByLastNameUsingListSort()
 }
 ```
 
-{{< color "red" >}}
+<div class="alert alert-danger" role="alert">
 1 test failed Expected: Weinberg, Steven. Cosmology 
 But was: Watt, Andrew. Beginning Regular Expressions
-{{< /color >}}
+</div>
 
 Good, all the possible constant values fail testing. Let's make it green by updating the CompareTo.
 
@@ -238,7 +242,7 @@ public int CompareTo(object obj)
 }
 ```
 
-{{< color "green" >}}1 test passed.{{< /color >}}
+<div class="alert alert-success" role="alert">1 test passed.</div>
 
 We could write more tests:
 
@@ -252,6 +256,4 @@ These tests would exercise the CompareTo method.
 
 Now that we know how to compare books let's try some other sorting algorithms.
 
-[Next &raquo;](/sortingkata/bubblesort)
-
-{{< datatable >}}
+[Next &raquo;](/post/bubblesort)

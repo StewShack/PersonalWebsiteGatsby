@@ -3,9 +3,10 @@ title: "Log4net"
 description: "An example using log4net with C#"
 date: 2017-09-12T00:00:00-00:00
 lastmod: 2017-08-08T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
+
+# Log4net
 
 By: Dan Stewart\
 September 12, 2017\

@@ -3,7 +3,6 @@ title: "Getting it Wrong the First Time"
 description: "It's ok to get it wrong the first time."
 date: 2012-07-29T00:00:00-00:00
 lastmod: 2018-12-03T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 

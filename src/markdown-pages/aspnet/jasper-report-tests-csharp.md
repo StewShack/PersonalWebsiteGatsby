@@ -3,9 +3,10 @@ title: "Testing Jasper Reports with C#"
 description: "Jasper reports can be tested using C# and API calls."
 date: 2018-04-20T00:00:00-00:00
 lastmod: 2018-04-20T00:00:00-00:00
-layout: "index"
 activemenu: "testing"
 ---
+
+# Testing Jasper Reports with C&#35;
 
 By: Dan Stewart\
 April 20, 2018\

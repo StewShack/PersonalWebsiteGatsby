@@ -3,7 +3,6 @@ title: "Programming"
 description: "Collection of driven development links"
 date: 2017-04-21T00:00:00-00:00
 lastmod: 2018-12-03T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 

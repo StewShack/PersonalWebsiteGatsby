@@ -3,9 +3,10 @@ title: "Manipulating Strings with C#"
 description: "Examples of string formats using C#"
 date: 2017-11-23T00:00:00-00:00
 lastmod: 2017-11-23T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
+
+# Manipulating Strings with C&#35;
 
 By: Dan Stewart\
 November 23, 2017\
@@ -71,6 +72,8 @@ Example:
 Stewart, Dan. (November 23, 2017). Manipulating Strings with C#. Retrieved December 02, 2017,
 from https://www.stewshack.com/post/strings/
 
->Do not include retrieval dates unless the source material 
-may change over time (e.g., Wikis)\
->American Psychological Association, 2010, p. 192
+<blockquote class="blockquote">
+Do not include retrieval dates unless the source material 
+may change over time (e.g., Wikis)
+<footer class="blockquote-footer">American Psychological Association, 2010, p. 192</footer>
+</blockquote>

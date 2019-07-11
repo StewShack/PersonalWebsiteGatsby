@@ -3,7 +3,6 @@ title: "SQL Code Style Guide"
 description: "How I style my SQL code"
 date: 2016-02-10T00:00:00-00:00
 lastmod: 2016-02-10T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 

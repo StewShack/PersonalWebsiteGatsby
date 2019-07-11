@@ -3,17 +3,17 @@ title: "Bowling Game Kata Conclusion"
 description: "The bowling game unit test conclusion"
 date: 2017-10-04T00:00:00-00:00
 lastmod: 2017-10-04T00:00:00-00:00
-layout: "index"
 activemenu: "web"
 ---
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/post/kata">Kata</a></li>
     <li class="breadcrumb-item"><a href="/post/bowlinggame">Bowling Game</a></li>
     <li class="breadcrumb-item">Conclusion</li>
   </ol>
 </nav>
+
+# Bowling Game Kata Conclusion
 
 By: Dan Stewart\
 October 4, 2017\
