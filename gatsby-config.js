@@ -32,35 +32,6 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     {
-        resolve: 'gatsby-plugin-sitemap',
-        options: {
-            query: `
-            {
-                site {
-                    siteMetadata {
-                      siteUrl
-                    }
-                  }
-
-                  allSitePage {
-                    edges {
-                      node {
-                        path
-                      }
-                    }
-                  }
-            }`,
-            createLinkInHead: true,
-            serialize: ({ site, allSitePage }) =>
-            allSitePage.edges.map(edge => {
-                return {
-                    url: site.siteMetadata.siteUrl + edge.node.path,
-                    changefreq: 'monthly'
-                }
-            })
-        }
-    },
-    {
         resolve: 'gatsby-transformer-remark',
         options: {
             plugins: [
