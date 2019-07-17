@@ -21,7 +21,20 @@ module.exports = {
             head: false,
         }
     },
+    {
+        resolve: 'gatsby-plugin-manifest',
+        options: {
+            name: 'StewShack',
+            short_name: 'StewShack',
+            start_url: '/',
+            background_color: '#ffffff',
+            theme_color: '#10a51d',
+            display: 'browset',
+            icon: 'static/favicon/favicon.png'
+        }
+    },
     'gatsby-plugin-netlify',
+    'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
     {
         resolve: 'gatsby-source-filesystem',
@@ -31,6 +44,33 @@ module.exports = {
         }
     },
     'gatsby-plugin-sass',
+    {
+        resolve: `gatsby-plugin-sitemap`,
+        options: {
+            query: `
+            {
+                site {
+                    siteMetadata {
+                        siteUrl
+                    }
+                }
+                allSitePage {
+                    edges {
+                        node {
+                            path
+                        }
+                    }
+                }
+            }`,
+            serialize: ({ site, allSitePage }) =>
+                allSitePage.edges.map(edge => {
+                    return {
+                        url: site.siteMetadata.siteUrl + edge.node.path,
+                        changefreq: 'monthly'
+                    }
+            })
+        }
+    },
     {
         resolve: 'gatsby-transformer-remark',
         options: {
