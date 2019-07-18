@@ -9,7 +9,7 @@ activemenu: "web"
 # Developer
 
 
-C#
+## C&#35;
 
 * [log4net](/post/log4net/)
 * [Reading a File](/post/csharpreadfile/)
@@ -19,21 +19,21 @@ C#
 * [FizzBuzz](/post/fizzbuzz)
 * [Sorting](/post/sortingkata)
 
-CSS
+## CSS
 
 * [Mouse Pointers](/mouse/)
 
-Node.js
+## Node.js
 
 * [Jasper report using REST and Node.js](/post/jasper-rest/)
 
-Software Craftsmanship
+## Software Craftsmanship
 
 * [Getting it Wrong the First Time](/post/wrong/)
 * [My Journey](/post/journey/) towards becoming a better Craftsman
 * [Programming](/post/programming/) theories not found in a textbook
 
-SQL
+## SQL
 
 * [Jasper Reports Tables and Parameters](/post/jasper-table-parameters/)
 * [Replication between different schemas](/post/replicationdifferentschemas/)
