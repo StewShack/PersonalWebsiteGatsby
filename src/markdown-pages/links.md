@@ -11,43 +11,6 @@ These links are being migrated to my [Mix page](https://mix.com/stewshack).
 
  Date (YYYY/MM/DD) | Link | Tags 
  ------------------|------|------
- 2019/02/20 | [Philosophy Now](https://philosophynow.org/) | Learning
- 2019/02/20 | [Free HTML Website templates](https://htmltemplates.co/) | Web
- 2019/02/20 | [Y Combinator Resources for Developers](https://ycombinator.dev/) | Dev, Tools
- 2019/02/20 | [Software Unit Test Smells](https://testsmells.github.io/) | Testing
- 2019/02/20 | [xUnit Patterns Test Smells](http://xunitpatterns.com/Test%20Smells.html) | Testing
- 2019/02/12 | [Automation Panda](https://automationpanda.com/) | Testing
- 2019/02/06 | [Selenium SonarLint](https://www.sonarlint.org/) | Testing
- 2019/01/25 | [Modern Testing Principles, AB Testing Podcast](https://www.angryweasel.com/ABTesting/modern-testing-principles/) | Podcast, Testing
- 2019/01/25 | [Association for Software Testing (AST)](https://www.associationforsoftwaretesting.org/) | Testing
- 2019/01/25 | [Programming Fonts](https://app.programmingfonts.org) | Development
- 2019/01/16 | [Testing is Believing - Ash Winter](http://testingisbelieving.blogspot.com/) | Testing
- 2019/01/12 | [Tricentis](https://www.tricentis.com/) | Testing
- 2019/01/12 | [Good Reads](https://www.goodreads.com/) | Learning
- 2019/01/12 | [Software Tester - Huib Schoots](http://www.huibschoots.nl/) | Testing
- 2019/01/12 | [All Things Testing - Toyer Mamoojee](https://toyerm.wordpress.com/) | Testing
- 2019/01/12 | [Mabl - Advancing QA using ML](https://www.mabl.com/) | Testing
- 2019/01/12 | [Quality Remarks - Keith Klain](http://qualityremarks.com/) | Testing
- 2019/01/12 | [Exercism - Code practice and mentorship](https://exercism.io/) | Development
- 2019/01/10 | [Test Automation University](https://testautomationu.applitools.com/) | Testing
- 2019/01/10 | [Testing Conferences](https://testingconferences.org/) | Testing, Monthly
- 2019/01/10 | [The Business of Testing](https://www.thebusinessoftesting.com/) | Testing, Podcast
- 2019/01/10 | [Code Magazine](https://www.codemag.com) | Development, Monthly
- 2019/01/07 | [Stories from a Software Tester](http://testerstories.com/) | Testing
- 2018/12/30 | [The happy secret to better work by Shawn Achor](https://www.youtube.com/watch?v=fLJsdqxnZb0&feature=youtu.be) | Life
- 2018/12/19 | [Grow Your Technical Skills with Google](https://techdevguide.withgoogle.com/) | Development
- 2018/12/19 | [Kaplan IT Training](https://www.kaplanittraining.com/) | Development
- 2018/12/19 | [MIT Deep Learning](https://deeplearning.mit.edu/) | ML
- 2018/12/02 | [Lynq: long range tracker](https://lynqme.com/) | Tools
- 2018/12/02 | [Beyond Passwords: 2FA, U2F](https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/) | Tools
- 2018/11/27 | [Machine Learning with AWS](https://aws.amazon.com/training/learning-paths/machine-learning/) | ML
- 2018/11/14 | [My CSRIC Commercial](https://www.youtube.com/watch?v=hX2kS3fs_Gk) | Fun
- 2018/11/14 | [Class Central - Search Engine for Online Classes](https://www.class-central.com/) | Life
- 2018/11/14 | [It's Not What You Know, It's How You Think](https://medium.com/s/story/the-trick-to-thinking-clearer-and-better-4a61c54114fa) | Life
- 2018/11/14 | [QualiTest Blog](https://www.qualitestgroup.com/blog/) | Testing
- 2018/09/03 | [Java JDK](http://jdk.java.net/) | Java
- 2018/08/05 | [Cognitive Dissonance in Programming](http://hangaroundtheweb.com/2018/07/cognitive-dissonance-in-programming/) | Testing
- 2018/07/27 | [Thinking Machine Chess](http://www.bewitched.com/chess/) | Fun
  2018/07/16 | [How should we evaluate progress in AI?](https://meaningness.com/metablog/artificial-intelligence-progress) | ML
  2018/06/27 | [Ways to think about machine learning](https://www.ben-evans.com/benedictevans/2018/06/22/ways-to-think-about-machine-learning-8nefy) | ML
  2018/06/27 | [METS - Minimal Essential Testing Strategy](https://www.metstesting.com/) | Testing
