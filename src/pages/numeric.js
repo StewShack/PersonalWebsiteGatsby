@@ -71,7 +71,7 @@ const numericInputTestResults = [
   {
     'Id': '12',
     'Input': 'XSS attack',
-    'Description': 'You entered a &lt; which makes me think this is a cross-site scripting attack. Cool! Whenever you see your input being displayed on a screen, attempt to input HTML. Does it displayed encoded or as HTML?'
+    'Description': 'You entered a < which makes me think this is a cross-site scripting attack. Cool! Whenever you see your input being displayed on a screen, attempt to input HTML. Does it displayed encoded or as HTML?'
   },
   {
     'Id': '13',
@@ -191,7 +191,6 @@ const numericInputTest = function (value) {
 }
 
 const addTestResultRow = function(id, input, description) {
-    const table = document.getElementById('testresult')
     const tablebody = document.getElementById('testingresult')
     let row = tablebody.insertRow()
     row.insertCell(0).appendChild(document.createTextNode(id))
@@ -200,7 +199,6 @@ const addTestResultRow = function(id, input, description) {
 }
 
 const removeTestResultRows = function() {
-    const table = document.getElementById('testresult')
     const tablebody = document.getElementById('testingresult')
     let j
     let rowTotal = tablebody.rows.length;
@@ -225,8 +223,8 @@ const setMessage = function(msg) {
 const test = function() {
     let numericInput = document.getElementById('number').value
     let result = numericInputTest(numericInput)
-    numericInput = escape(numericInput)
-    addTestResultRow(result.Id, escape(numericInput), result.Description)
+    numericInput = encodeURI(numericInput)
+    addTestResultRow(result.Id, encodeURI(numericInput), result.Description)
     setMessage('Added test ID ' + result.Id + ' for input ' + numericInput + '. ' + result.Description)  
 }
 
@@ -245,10 +243,10 @@ return (
                 by <a href="https://www.amazon.com/Lessons-Learned-Software-Testing-Context-Driven/dp/0471081124">Lessons Learned 
                 in Software Testing: A Context Driven Approach</a> by Cem Kaner, James Bach, and Bret Pettichord.
             </p><p>
-                Here is a numeric field. Go ahead and test it for input validation. You do not need to test the "-ilities" such 
+                Here is a numeric field. Go ahead and test it for input validation. You do not need to test the &quot;-ilities&quot; such 
                 as reliability, or usability.
             </p>
-            <h1>I'm thinking of a number between 1 and 100</h1>
+            <h1>I&apos;m thinking of a number between 1 and 100</h1>
             <p>
                 <input type="text" id="number" maxLength="14" onKeyPress={event => {
                     if(event && event.key == 'Enter') {
@@ -291,4 +289,4 @@ return (
     )
 }
 
-export default NumericPage; 
+export default NumericPage;

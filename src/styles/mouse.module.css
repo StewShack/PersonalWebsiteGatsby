@@ -1,13 +1,3 @@
-.mousePointers div {
-    background-color: #005;
-    color: #FFF;
-    float: left;
-	margin: 1em;
-	padding: 0.5em;
-	text-align: center;
-    width: 12em;
-}
-
 .cursorauto {
     cursor: auto;
 }
@@ -20,44 +10,44 @@
     cursor: default;
 }
 
-.cursorpointer {
-    cursor: pointer;
+.cursoreresize {
+    cursor: e-resize;
+}
+
+.cursorhelp {
+    cursor: help;
 }
 
 .cursormove {
     cursor: move;
 }
 
-.cursoreresize {
-    cursor: e-resize;
-}
-
 .cursorneresize {
     cursor: ne-resize;
-}
-
-.cursornwresize {
-    cursor: nw-resize;
 }
 
 .cursornresize {
     cursor: n-resize;
 }
 
-.cursorseresize {
-    cursor: se-resize;
+.cursornwresize {
+    cursor: nw-resize;
 }
 
-.cursorswresize {
-    cursor: sw-resize;
+.cursorpointer {
+    cursor: pointer;
+}
+
+.cursorseresize {
+    cursor: se-resize;
 }
 
 .cursorsresize {
     cursor: s-resize;
 }
 
-.cursorwresize {
-    cursor: w-resize;
+.cursorswresize {
+    cursor: sw-resize;
 }
 
 .cursortext {
@@ -68,6 +58,16 @@
     cursor: wait;
 }
 
-.cursorhelp {
-    cursor: help;
+.cursorwresize {
+    cursor: w-resize;
+}
+
+.mousePointers div {
+    background-color: #005;
+    color: #FFF;
+    float: left;
+	margin: 1em;
+	padding: 0.5em;
+	text-align: center;
+    width: 12em;
 }

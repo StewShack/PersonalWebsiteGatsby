@@ -13,6 +13,8 @@ If you would like to contribute, read the [Code of Conduct](https://github.com/S
 To run the site:
 
 ```
+npm install -g gatsby
+
 npm install
 
 npm test
