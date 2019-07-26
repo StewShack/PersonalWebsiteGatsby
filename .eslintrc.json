@@ -1,12 +1,17 @@
 {
+    "plugins": [
+        "mocha"
+    ],
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:mocha/recommended"
     ],
     "env": {
         "browser": true,
         "es6": true,
-        "node": true
+        "node": true,
+        "mocha": true
     },
     "parser": "babel-eslint",
     "settings": {

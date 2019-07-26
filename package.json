@@ -6,9 +6,10 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "test": "npm run-script eslint && npm run-script csslint",
+    "test": "npm run-script eslint && npm run-script csslint && npm run-script mocha",
     "eslint": "eslint --ignore-path .gitignore --ext .js,.jsx . || exit 0",
-    "csslint": "./node_modules/.bin/csslint --quiet src/styles/main.module.css src/styles/mouse.module.css"
+    "csslint": "./node_modules/.bin/csslint --quiet src/styles/main.module.css src/styles/mouse.module.css",
+    "mocha": "node ./node_modules/mocha/bin/mocha test"
   },
   "repository": {
     "type": "git",
@@ -53,6 +54,8 @@
     "babel-eslint": "^10.0.2",
     "csslint": "^1.0.5",
     "eslint": "^6.0.1",
-    "eslint-plugin-react": "^7.14.2"
+    "eslint-plugin-mocha": "^6.0.0",
+    "eslint-plugin-react": "^7.14.2",
+    "mocha": "^6.2.0"
   }
 }
