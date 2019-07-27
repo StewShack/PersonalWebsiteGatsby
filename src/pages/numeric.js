@@ -1,48 +1,50 @@
 import React from "react";
 import Layout from '../components/layout';
 import Head from "../components/head"
-import numericInputModule from './numericInputModule'
+const NumericInputTester = require('./numericinputtest');
+
+let numericInputTest = new NumericInputTester();
 
 const NumericPage = () => {
-const addTestResultRow = function(id, input, description) {
-    const tablebody = document.getElementById('testingresult')
-    let row = tablebody.insertRow()
-    row.insertCell(0).appendChild(document.createTextNode(id))
-    row.insertCell(1).appendChild(document.createTextNode(input))
-    row.insertCell(2).appendChild(document.createTextNode(description))
-}
-
-const removeTestResultRows = function() {
-    const tablebody = document.getElementById('testingresult')
-    let j
-    let rowTotal = tablebody.rows.length;
-    for(j = 0; j < rowTotal; j++) {
-        tablebody.deleteRow(0);
+    const addTestResultRow = function(id, input, description) {
+        const tablebody = document.getElementById('testingresult')
+        let row = tablebody.insertRow()
+        row.insertCell(0).appendChild(document.createTextNode(id))
+        row.insertCell(1).appendChild(document.createTextNode(input))
+        row.insertCell(2).appendChild(document.createTextNode(description))
     }
-}
 
-const setMessage = function(msg) {
-    const message = document.getElementById('message')
-    if(msg) {
-        message.classList.add('alert')
-        message.classList.add('alert-success')
-        message.innerHTML = msg
-    } else {
-        message.classList.remove('alert')
-        message.classList.remove('alert-success')
-        message.innerHTML = ''
+    const removeTestResultRows = function() {
+        const tablebody = document.getElementById('testingresult')
+        let j
+        let rowTotal = tablebody.rows.length;
+        for(j = 0; j < rowTotal; j++) {
+            tablebody.deleteRow(0);
+        }
     }
-}
 
-const test = function() {
-    let numericInput = document.getElementById('number').value
-    let result = numericInputModule.numericInputTest(numericInput)
-    numericInput = encodeURI(numericInput)
-    addTestResultRow(result.Id, encodeURI(numericInput), result.Description)
-    setMessage('Added test ID ' + result.Id + ' for input ' + numericInput + '. ' + result.Description)  
-}
+    const setMessage = function(msg) {
+        const message = document.getElementById('message')
+        if(msg) {
+            message.classList.add('alert')
+            message.classList.add('alert-success')
+            message.innerHTML = msg
+        } else {
+            message.classList.remove('alert')
+            message.classList.remove('alert-success')
+            message.innerHTML = ''
+        }
+    }
 
-return (
+    const test = function() {
+        let numericInput = document.getElementById('number').value
+        let result = numericInputTest.testInput(numericInput)
+        numericInput = encodeURI(numericInput)
+        addTestResultRow(result.Id, encodeURI(numericInput), result.Description)
+        setMessage('Added test ID ' + result.Id + ' for input ' + numericInput + '. ' + result.Description)  
+    }
+
+    return (
     <Layout activemenu="testing">
         <Head title="Testing Numeric Input" 
             description="An exercise is testing numeric input" />
@@ -72,10 +74,10 @@ return (
                         removeTestResultRows()
                         setMessage('')
                         let i
-                        for(i = 0; i < numericInputModule.numericInputTestResults.length; i++) {
-                            addTestResultRow(numericInputModule.numericInputTestResults[i].Id, 
-                                numericInputModule.numericInputTestResults[i].Input,
-                                numericInputModule.numericInputTestResults[i].Description)
+                        for(i = 0; i < numericInputTest.numericInputTestResults.length; i++) {
+                            addTestResultRow(numericInputTest.numericInputTestResults[i].Id, 
+                                numericInputTest.numericInputTestResults[i].Input,
+                                numericInputTest.numericInputTestResults[i].Description)
                         }
                     }
                 }
