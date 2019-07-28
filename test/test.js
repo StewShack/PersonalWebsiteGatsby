@@ -2,7 +2,7 @@
 
 const assert = require('assert');
 
-const NumericInputTester = require('../src/pages/numericInputTest');
+const NumericInputTester = require('../static/numericInputTest');
 
 let numericInputTest = new NumericInputTester();
 

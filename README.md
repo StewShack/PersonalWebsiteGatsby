@@ -49,3 +49,4 @@ Thank You
 * [Gatsby](https://www.gatsbyjs.org/)
 * [Let's Encrypt](https://letsencrypt.org/)
 * [Netlify](https://www.netlify.com/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2774255f-c99e-41ef-af9f-82df15e273f2/deploy-status)](https://app.netlify.com/sites/stewshack/deploys)

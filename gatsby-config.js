@@ -15,66 +15,64 @@ module.exports = {
   },
   plugins: [
     {
-        resolve: 'gatsby-plugin-google-analytics',
-        options: {
-            trackingId: "UA-22932513-1",
-            head: false,
-        }
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+          trackingId: 'UA-22932513-1',
+          head: false,
+      }
     },
     'gatsby-plugin-netlify',
     'gatsby-plugin-react-helmet',
     {
-        resolve: 'gatsby-source-filesystem',
-        options: {
-            name: 'src',
-            path: `${__dirname}/src/`
-        }
+      resolve: 'gatsby-source-filesystem',
+      options: {
+          name: 'src',
+          path: `${__dirname}/src/`
+      }
     },
     'gatsby-plugin-sass',
     {
-        resolve: 'gatsby-plugin-sitemap',
-        options: {
-            query: `
-            {
-                site {
-                    siteMetadata {
-                        siteUrl
-                    }
-                }
-                allSitePage {
-                    edges {
-                        node {
-                            path
-                        }
-                    }
-                }
-            }`,
-            serialize: ({ site, allSitePage }) =>
-                allSitePage.edges.map(edge => {
-                    return {
-                        url: site.siteMetadata.siteUrl + edge.node.path,
-                        changefreq: 'monthly'
-                    }
-            })
-        }
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage {
+            edges {
+              node {
+                path
+              }
+            }
+          }
+        }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: 'monthly'
+            }
+        })
+      }
     },
     {
-        resolve: 'gatsby-transformer-remark',
-        options: {
-            plugins: [
-                {
-                    resolve: 'gatsby-remark-prismjs',
-                    options: {
-                        classPrefix: "language-",
-                        inlineCodeMarker: null,
-                        aliases: {},
-                        showLineNumbers: false,
-                        noInlineHighlight: true,
-                        
-                    }
-                }
-            ]
-        }
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [{
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: true,                
+            }
+          }
+        ]
+      }
     }
   ]
 }
