@@ -44,6 +44,7 @@
     "gatsby-transformer-remark": "^2.3.12",
     "node-sass": "^4.12.0",
     "prismjs": "^1.16.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
@@ -54,6 +55,7 @@
     "babel-eslint": "^10.0.2",
     "csslint": "^1.0.5",
     "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
     "eslint-plugin-mocha": "^6.0.0",
     "eslint-plugin-react": "^7.14.2",
     "mocha": "^6.2.0"

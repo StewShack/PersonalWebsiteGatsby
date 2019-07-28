@@ -3,8 +3,7 @@
         "mocha"
     ],
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
+        "airbnb",
         "plugin:mocha/recommended"
     ],
     "env": {
@@ -14,6 +13,9 @@
         "mocha": true
     },
     "parser": "babel-eslint",
+    "rules": {
+      "linebreak-style": ["off", "windows"]
+    },
     "settings": {
         "react": {
             "version": "detect"
