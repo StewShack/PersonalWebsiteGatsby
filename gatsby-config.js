@@ -49,10 +49,7 @@ module.exports = {
             }
           }
         }`,
-        serialize: ({ site, allSitePage }) => allSitePage.edges.map((edge) => ({
-          url: site.siteMetadata.siteUrl + edge.node.path,
-          changefreq: 'monthly',
-        }))
+        serialize: ({ site, allSitePage }) => allSitePage.edges.map(edge => ({ url: site.siteMetadata.siteUrl + edge.node.path, changefreq: 'monthly' })),
       },
     },
     {
