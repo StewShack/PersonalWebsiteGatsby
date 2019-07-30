@@ -17,8 +17,8 @@
 /bowlinggame/typical /post/bowlinggame-typical
 /brew /post/brew
 /contact /
-/css /post/mouse
-/css/mouse /post/mouse
+/css /mouse
+/css/mouse /mouse
 /kata /post/sc
 /kata/factorial /post/factorial
 /kata/fizzbuzz /post/fizzbuzz
