@@ -32,7 +32,7 @@ const MousePage = () => {
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
 export default MousePage;
