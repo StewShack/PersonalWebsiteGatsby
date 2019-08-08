@@ -84,8 +84,7 @@ const NumericPage = () => {
               if (event && event.key === `Enter`) {
                 test()
               }
-            }
-            }
+            }}
           />
           <input type="button" value="Test It" id="testButton" onClick={test} />
         </p>
@@ -99,15 +98,17 @@ const NumericPage = () => {
               setMessage(``)
               let i
               for (
-                i = 0; 
-                i < numericInputTest.numericInputTestResults.length; i += 1
+                i = 0;
+                i < numericInputTest.numericInputTestResults.length;
+                i += 1
               ) {
-                addTestResultRow(numericInputTest.numericInputTestResults[i].Id,
+                addTestResultRow(
+                  numericInputTest.numericInputTestResults[i].Id,
                   numericInputTest.numericInputTestResults[i].Input,
-                  numericInputTest.numericInputTestResults[i].Description)
+                  numericInputTest.numericInputTestResults[i].Description
+                )
               }
-            }
-          }
+            }}
           />
         </p>
         <p>
@@ -117,7 +118,7 @@ const NumericPage = () => {
             id="resetButton"
             onClick={() => {
               removeTestResultRows()
-              setMessage("")
+              setMessage(``)
             }}
           />
         </p>
