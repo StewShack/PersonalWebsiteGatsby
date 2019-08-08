@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "description": "Personal website for Dan Stewart written in Gatsby",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "npm run develop",
     "build": "gatsby build",
-    "test": "npm run lint && npm run mocha",
-    "lint": "npm run lint:code && npm run lint:other && npm run csslint",
-    "lint:code": "eslint --ext .js,.jsx . || exit 0",
-    "lint:other": "npm run prettier -- --check",
     "csslint": "./node_modules/.bin/csslint --quiet src/styles/main.module.css src/styles/mouse.module.css",
+    "develop": "gatsby develop",
+    "lint": "npm run lint:code && npm run csslint",
+    "lint:code": "eslint --ext .js,.jsx . || exit 0",
     "mocha": "node ./node_modules/mocha/bin/mocha test",
-    "prettier": "prettier \"**/*.{md,css,scss,yaml,yml,ts}\""
+    "serve": "gatsby build && gatsby serve",
+    "start": "npm run develop",
+    "test": "npm run lint && npm run mocha"
   },
   "repository": {
     "type": "git",
