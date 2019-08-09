@@ -63,18 +63,18 @@ const NumericPage = () => {
           <a href="https://mit-license.org">MIT License</a>
         </p>
         <p>
-          Testing numeric input was inspired by
+          Testing numeric input was inspired by&nbsp;
           <a href="https://www.amazon.com/Lessons-Learned-Software-Testing-Context-Driven/dp/0471081124">
-            Lessons Learned in Software Testing: A Context Driven Approach
+          Lessons Learned in Software Testing: A Context Driven Approach
           </a>
-          by Cem Kaner, James Bach, and Bret Pettichord.
+          &nbsp;by Cem Kaner, James Bach, and Bret Pettichord.
         </p>
         <p>
           Here is a numeric field. Go ahead and test it for input validation.
-          You do not need to test the &quot-ilities&quot such as reliability, or
+          You do not need to test the &quot;-ilities&quot; such as reliability, or
           usability.
         </p>
-        <h1>I&aposm thinking of a number between 1 and 100</h1>
+        <h1>I&apos;m thinking of a number between 1 and 100</h1>
         <p>
           <input
             type="text"
