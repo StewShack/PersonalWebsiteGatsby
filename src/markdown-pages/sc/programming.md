@@ -2,14 +2,14 @@
 title: "Programming"
 description: "Collection of driven development links"
 date: 2017-04-21T00:00:00-00:00
-lastmod: 2018-12-03T00:00:00-00:00
+lastmod: 2019-08-28T00:00:00-00:00
 activemenu: "web"
 ---
 
 # Programming
 
 By: Dan Stewart\
-April 21, 2017 
+August 28, 2019
 
 Here's my collection of programming theories that you won't find in a textbook.
 
@@ -29,8 +29,10 @@ Here's my collection of programming theories that you won't find in a textbook.
 * [Installation Driven Development](http://third-bit.com/2016/03/19/continuous-installation-checking.html)
 * [Love Driven Development](http://blog.fogus.me/2012/06/20/not-enough/)
 * [Lug-Nut Driven Development](https://medium.com/@belisarius222/how-to-start-a-software-project-ad51373c1510#.30f9dtslw)
+* [Puzzle Driven Development](https://www.yegor256.com/2010/03/04/pdd.html)
 * [Reality Driven Development](https://www.brightball.com/articles/reality-driven-development-fixing-project-management-in-software)
 * [Mortgage Driven Development](http://www.codemanship.co.uk/parlezuml/blog/?postid=147)
 * [Spite Driven Development](http://engineering-blog.wantering.com/post/40276705512/spite-driven-development)
 * [Suffering-Oriented Programming](http://nathanmarz.com/blog/suffering-oriented-programming.html)
+* [TODO-driven development](https://codejamming.org/2019/how-to-return-to-flow)
 * [YOLO Driven Development](https://usersnap.com/blog/ugly-habits-in-web-development/)
