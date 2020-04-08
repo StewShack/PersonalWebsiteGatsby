@@ -2,27 +2,38 @@
 title: "Dan Stewart"
 description: "Personal website for Dan Stewart"
 date: 2018-01-27T00:00:00-00:00
-lastmod: 2019-01-14T00:00:00-00:00
+lastmod: 2020-04-07T00:00:00-00:00
 draft: false
 activemenu: "home"
 ---
 
 <img src="/images/stewshack.jpg" style="float:left; margin: 0.5em;" alt="Dan Stewart">
 
-            
-# About Me
- 
-I am a quality engineer, developer, and homebrewer.
 
-After 17 years in Web development, I was offered a position as a Quality Engineer. I fell in love 
-with testing after I began to use Test Driven Development. I discovered that I am a better "breaker" than I am a "maker". 
-I enjoy working with the customer at the beginning of the project. Then working with developers, and testing all along the way. I first manually test the feature, and then automate that test to guard against regression bugs.
+# About Me
+
+I am an Associate Technology Product Manager at Kaplan Professional.
+
+After six years as a quality engineer, my role changed and I now report to a Product Manager. Her responsibility is to work with stakeholders and designers to find solutions to problems. With my development and testing experience, I can take those solutions and create tickets in Jira for the development team. I attend the Scrum events acting as the Product Owner. Before we release the solution, I conduct user acceptance testing. Post-release I create product videos, animated GIFs, and feature pages to communicate the change to all of Kaplan Professional.
 
 # Professional Experience
 
+## Kaplan Professional, Centennial, CO
+
+2020 &ndash; Present
+
+Title: Associate Technology Product Manager
+
+Description: Reported to the Product Manager (PM) on the student "Home" team. 
+Wrote Jira tickets based on the solutions from the PM to be worked on by the development team. 
+Acted as a Product Owner on a Scrum team.
+Conducted user acceptance testing with stakeholders.
+Produced videos and feature pages to communicate the solutions to all of Kaplan Professional.
+Continued to support the College for Financial Planning as lead technical support and quality analyst.
+
 ## College for Financial Planning, Centennial, CO
 
-2005 &ndash; Present
+2005 &ndash; 2020
 
 Title: 2014 &ndash; Present. Quality Engineer
 
@@ -131,7 +142,7 @@ Tutor in math and science.
 
 # Professional Organizations
 
-[Software Quality Association of Denver](https://www.meetup.com/squadco)
+[Product Management Denver](https://www.meetup.com/Product-Management-Denver/)
 
 # Certifications
 
@@ -141,7 +152,7 @@ Microsoft Certified Application Developer
 
 ## i9 Sports
 
-2018
+2018 &ndash; Present
 
 [Soccer coach](https://www.i9sports.com/)
 
@@ -150,16 +161,3 @@ Microsoft Certified Application Developer
 2015 &ndash; Present
 
 [Community volunteer](http://www.coloradocommunity.org/serve/)
-
-## Lifebyte, Denver, CO
-
-2000 &ndash; 2014
-
-Lifebyte received and refurbished computer equipment in the Denver area. The equipment is given to recipients through the 
-MORE Life Center. Lifebyte also has a monthly "PC Wash" as a fundraiser. I managed Lifebyte's IT services and record keeping.
-
-## Rocky Mountain Tech Trifecta, Denver, CO
-
-2011 &ndash; 2012
-
-Helped with the set-up and tear-down of the Rocky Mountain Tech Trifecta conference.
