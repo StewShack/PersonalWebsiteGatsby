@@ -2,14 +2,14 @@
 title: "Programming"
 description: "Collection of driven development links"
 date: 2017-04-21T00:00:00-00:00
-lastmod: 2019-08-28T00:00:00-00:00
+lastmod: 2020-05-31T00:00:00-00:00
 activemenu: "web"
 ---
 
 # Programming
 
 By: Dan Stewart\
-August 28, 2019
+May 31, 2020
 
 Here's my collection of programming theories that you won't find in a textbook.
 
@@ -31,6 +31,7 @@ Here's my collection of programming theories that you won't find in a textbook.
 * [Lug-Nut Driven Development](https://medium.com/@belisarius222/how-to-start-a-software-project-ad51373c1510#.30f9dtslw)
 * [Puzzle Driven Development](https://www.yegor256.com/2010/03/04/pdd.html)
 * [Reality Driven Development](https://www.brightball.com/articles/reality-driven-development-fixing-project-management-in-software)
+* [REPL Driven Design](https://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html)
 * [Mortgage Driven Development](http://www.codemanship.co.uk/parlezuml/blog/?postid=147)
 * [Spite Driven Development](http://engineering-blog.wantering.com/post/40276705512/spite-driven-development)
 * [Suffering-Oriented Programming](http://nathanmarz.com/blog/suffering-oriented-programming.html)
