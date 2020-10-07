@@ -14,13 +14,6 @@ module.exports = {
     youtube: `https://www.youtube.com/user/stewshack`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-22932513-1`,
-        head: false,
-      },
-    },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     {

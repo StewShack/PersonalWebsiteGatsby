@@ -43,7 +43,7 @@ However, you can purchase from us an equivalent document that does not include t
 3.2	We may process data about your use of our website and services ("usage data"). The usage data may include your IP address, 
 geographical location, browser type and version, operating system, referral source, length of visit, page views and website 
 navigation paths, as well as information about the timing, frequency and pattern of your service use. The source of the usage 
-data is <a href="https://www.google.com/analytics/">Google Analytics</a> (analytics) and <a href="https://www.netlify.com/privacy/">Netlify</a>. 
+data is <a href="https://www.netlify.com/privacy/">Netlify</a>. 
 This usage data may be processed for the purposes of 
 analysing the use of the website and services. The legal basis for this processing is our legitimate interests, namely monitoring 
 and improving our website and services.
@@ -159,9 +159,7 @@ data is processed for the purpose of supplying the purchased goods and services 
 
 11.1	Our service providers use cookies and those cookies may be stored on your computer when you visit our website.
 
-11.2	We use Google Analytics to analyse the use of our website. Google Analytics gathers information about website use by means of cookies. The information gathered relating to our website is used to create reports about the use of our website. Google's privacy policy is available at: <a href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.
-
-11.3	We use Netlify to host this website. This service uses cookies for specify purpose(s). You can view the privacy policy of this service provider at <a href="https://www.netlify.com/privacy/">https://www.netlify.com/privacy/</a>.
+11.2	We use Netlify to host this website. This service uses cookies for specify purpose(s). You can view the privacy policy of this service provider at <a href="https://www.netlify.com/privacy/">https://www.netlify.com/privacy/</a>.
 
 12.0	Managing cookies
 
