@@ -24,7 +24,7 @@ npm start
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2019 Dan Stewart
+Copyright (c) 2020 Dan Stewart
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
