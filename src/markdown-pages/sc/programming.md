@@ -2,14 +2,14 @@
 title: "Programming"
 description: "Collection of driven development links"
 date: 2017-04-21T00:00:00-00:00
-lastmod: 2020-05-31T00:00:00-00:00
+lastmod: 2020-10-28T00:00:00-00:00
 activemenu: "web"
 ---
 
 # Programming
 
 By: Dan Stewart\
-May 31, 2020
+October 28, 2020
 
 Here's my collection of programming theories that you won't find in a textbook.
 
@@ -36,4 +36,5 @@ Here's my collection of programming theories that you won't find in a textbook.
 * [Spite Driven Development](http://engineering-blog.wantering.com/post/40276705512/spite-driven-development)
 * [Suffering-Oriented Programming](http://nathanmarz.com/blog/suffering-oriented-programming.html)
 * [TODO-driven development](https://codejamming.org/2019/how-to-return-to-flow)
+* [Worry Driven Development](https://www.seangoedecke.com/worry-driven-development/)
 * [YOLO Driven Development](https://usersnap.com/blog/ugly-habits-in-web-development/)
