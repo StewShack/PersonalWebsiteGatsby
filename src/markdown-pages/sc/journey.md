@@ -2,14 +2,14 @@
 title: "Journey"
 description: "My journey towards becoming an IT professional"
 date: 2018-02-21T00:00:00-00:00
-lastmod: 2018-02-21T00:00:00-00:00
+lastmod: 2020-12-20T00:00:00-00:00
 activemenu: "web"
 ---
 
 # My Journey as a Software Craftsman
 
 By: Dan Stewart\
-May 3, 2014
+December 20, 2020
 
 I began typing at a very young age. 
 
@@ -84,9 +84,15 @@ I need to remember to pause as I program.
 
 Beyond book smarts, a programmer needs time and motivation. How do you become a better programmer? By programming!
 
-In January 2014 I was promoted to Quality Engineer. I would tell my friends, "Instead of making stuff, I'm breaking stuff." After 17 years as a 
+## First Quality Engineer Job
+
+In January 2014, I was promoted to Quality Engineer. I would tell my friends, "Instead of making stuff, I'm breaking stuff." After 17 years as a 
 Web developer I was ready to become a tester, but I didn't want to give up programming. So I reinvented myself  and found that testing was a joy. 
-In May 2016 I was promoted to Senior Quality Engineer. My focus is now on test automation along with test planning and test case management.
+In May 2016 I was promoted to Senior Quality Engineer. My focus was on test automation along with test planning and test case management.
+
+## First Product Management Job
+
+In March 2020, I was promoted to Associate Technology Product Manager (TPM). I work alongside another TPM on a student homepage for Kaplan. Her role is to work with senior leaders on a roadmap. Then she collaborates with designers and researchers creating the designs that the team will work on. I take these designs and create Jira tickets. Then I work with the team in refining the tickets. I act as the product owner setting priority and answering questions. As we near the release of the feature, I conduct user acceptance testing. After the release I monitor the product to ensure things are working in production.
 
 This quote represents the content of this website. 
 
